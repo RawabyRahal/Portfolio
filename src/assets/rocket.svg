@@ -1,0 +1,26 @@
+ <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    width="64px"
+    height="64px"
+    className="rocket-icon"
+  >
+    <defs>
+      <linearGradient id="rocket-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style={{ stopColor: '#ff8a00', stopOpacity: 1 }} />
+        <stop offset="100%" style={{ stopColor: '#e52e71', stopOpacity: 1 }} />
+      </linearGradient>
+      <linearGradient id="rocket-flame-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style={{ stopColor: '#ff6f61', stopOpacity: 1 }} />
+        <stop offset="100%" style={{ stopColor: '#d80000', stopOpacity: 1 }} />
+      </linearGradient>
+    </defs>
+    <path
+      d="M32 0C23.1797 0 16 7.1797 16 16C16 22.1094 19.6758 27.2734 25 29.25V37H22V39H42V37H39V29.25C44.3242 27.2734 48 22.1094 48 16C48 7.1797 40.8203 0 32 0zM32 4C38.6094 4 44 9.3906 44 16C44 21.0156 41.0938 25.1016 37 26.7188V37H27V26.7188C22.9063 25.1016 20 21.0156 20 16C20 9.3906 25.3906 4 32 4z"
+      fill="url(#rocket-body-gradient)"
+    />
+    <path
+      d="M32 37C25.9258 37 20.2734 38.8438 16.3125 42.8125L8.2813 50.8438L13.1563 55.7188L21.1875 47.6875C22.7852 46.0898 24.8555 45 27 45H37C39.1445 45 41.2148 46.0898 42.8125 47.6875L50.8438 55.7188L55.7188 50.8438L47.6875 42.8125C43.7266 38.8438 38.0742 37 32 37z"
+      fill="url(#rocket-flame-gradient)"
+    />
+  </svg>
