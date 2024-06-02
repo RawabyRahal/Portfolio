@@ -52,6 +52,7 @@ import {
   mui,
   axios,
   portfolio,
+  softwareEngineer,
 } from "../assets";
 
 export const navLinks = [
@@ -79,6 +80,10 @@ export const navLinks = [
 
 const services = [
   {
+    title: "Software Engineer",
+    icon: softwareEngineer,
+  },
+  {
     title: "Web Developer",
     icon: web,
   },
@@ -95,7 +100,7 @@ const services = [
     icon: frontend,
   },
   {
-    title: "Full-stack Developer",
+    title: "Full-Stack Developer",
     icon: fullstack,
   },
   {
@@ -217,30 +222,34 @@ const technologies = [
   //   name: "API",
   //   icon: api,
   // },
-  // {
-  //   name: "IntelliJ",
-  //   icon: intelliJ,
-  // },
-  // {
-  //   name: "Visual Studio Code",
-  //   icon: visualStudioCode,
-  // },
-  // {
-  //   name: "Visual Studio",
-  //   icon: visualStudio,
-  // },
-  // {
-  //   name: "Android Studio",
-  //   icon: androidStudio,
-  // },
-  // {
-  //   name: "Postman",
-  //   icon: postman ,
-  // },
+  
   // {
   //   name: "docker",
   //   icon: docker,
   // },
+];
+
+const tools = [
+  {
+    name: "IntelliJ",
+    icon: intelliJ,
+  },
+  {
+    name: "Visual Studio Code",
+    icon: visualStudioCode,
+  },
+  {
+    name: "Visual Studio",
+    icon: visualStudio,
+  },
+  {
+    name: "Android Studio",
+    icon: androidStudio,
+  },
+  {
+    name: "Postman",
+    icon: postman ,
+  },
 ];
 
 const experiences = [
@@ -362,4 +371,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, tools };

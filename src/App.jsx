@@ -20,8 +20,8 @@ const App = () => {
         <div>
           <Navbar />
           {/* <StarsCanvas /> */}
-          <Sidebar />
           <Hero />
+          <Sidebar />
         </div>
         <About />
         {/* <Experience /> */}

@@ -48,14 +48,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software and full-stack developer with extensive experience in
-        JavaScript, specializing in frontend frameworks such as React, and
-        backend technologies including Node.js, Express.js, MongoDB, and Java.
-        My passion for technology propels me to consistently learn and adapt,
-        ensuring I remain at the forefront of industry advancements. I excel in
-        collaborative environments and firmly believe in the transformative
-        power of teamwork to bring ideas to fruition. Let's collaborate to turn
-        your visions into reality!{" "}
+        I'm a Software Engineer and Full-Stack Developer with extensive
+        experience in JavaScript, specializing in frontend frameworks like
+        React, and backend technologies such as Node.js, Express.js, MongoDB,
+        and Java. My passion for technology drives me to continually learn and
+        adapt, ensuring I stay at the forefront of industry advancements. I
+        thrive in collaborative environments and firmly believe in the
+        transformative power of teamwork to bring ideas to fruition. Let's
+        collaborate to turn your visions into reality!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

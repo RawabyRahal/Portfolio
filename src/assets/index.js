@@ -16,6 +16,7 @@ import rocketSVG from "./rocket.svg";
 import home2 from "./home2.png";
 import home3 from "./home3.png";
 import planets from "./planets.png";
+import softwareEngineer from "./softwareEngineer.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -129,4 +130,5 @@ export {
   mui,
   axios,
   portfolio,
+  softwareEngineer,
 };

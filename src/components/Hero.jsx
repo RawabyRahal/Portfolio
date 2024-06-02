@@ -15,12 +15,13 @@ const Hero = () => {
             Hi There! 👋🏻 <br className="sm:block hidden" />
             <div className=" sm:whitespace-nowrap">
               {" "}
-              I'm <span className=" space-gradient">Rawaby Rahal</span>
+              I'm <span className="space-gradient">Rawaby Rahal</span>
             </div>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Full-stack & software developer, <br className="sm:block hidden" />
-            skilled in creating robust solutions for web & software
+            Software Engineer and Full-Stack Developer,{" "}
+            <br className="sm:block hidden" />
+            skilled in creating effective solutions for web and software
             applications.
           </p>
         </div>
