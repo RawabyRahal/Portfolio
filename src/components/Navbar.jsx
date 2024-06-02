@@ -1,13 +1,24 @@
 import { useState } from "react";
 
 import { Link } from "react-router-dom";
-import { logo, menu, close, house, rocket,home2, home3, planets } from "../assets";
+import {
+  logo,
+  menu,
+  close,
+  house,
+  rocket,
+  home2,
+  home3,
+  planets,
+} from "../assets";
 import { navLinks } from "../constants";
 import { styles } from "../styles";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+
   return (
     <nav
       className={`${
@@ -25,24 +36,6 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          {/* <img
-            src={house}
-            alt="home"
-            title="Home"
-            className="w-12 h-12 object-contain"
-          /> */}
-          {/* <img
-            src={home2}
-            alt="home"
-            title="Home"
-            className="w-13 h-12 object-contain"
-          /> */}
-          {/* <img
-            src={home3}
-            alt="home"
-            title="Home"
-            className="w-13 h-12 object-contain"
-          /> */}
           <img
             src={planets}
             alt="home"
@@ -76,14 +69,14 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}
           >
-            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4 ">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                  className={`font-poppins font-medium cursor-pointer cursor-pointer text-[16px] ${
+                    active === nav.title ? "text-white" : "text-black"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

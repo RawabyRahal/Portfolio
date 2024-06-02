@@ -1,6 +1,8 @@
 import { styles } from "../styles";
 import ComputersCanvas from "./canvas/Computers";
 import { motion } from "framer-motion";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Hero = () => {
   return (

@@ -38,12 +38,12 @@
   background: -webkit-linear-gradient(
     to bottom,
     #434343,
-    #222222
+    #363636
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
     #434343,
-    #222222
+    #363636
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
