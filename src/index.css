@@ -18,18 +18,32 @@
   padding-bottom: 100px;
   display: block;
 }
+.custom-mui-input-underline {
+  --underline-color: white;
+}
 
+.custom-mui-input-underline .MuiInput-underline:before {
+  border-bottom-color: var(--underline-color);
+}
+
+.custom-mui-input-underline .MuiInput-underline:after {
+  border-bottom-color: var(--underline-color);
+}
+
+.custom-mui-input-underline .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom-color: var(--underline-color);
+}
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
-    to right,
+    to bottom,
     #434343,
-    #000000
+    #222222
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to right,
+    to bottom,
     #434343,
-    #000000
+    #222222
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 

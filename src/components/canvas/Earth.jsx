@@ -1,20 +1,20 @@
-import React, { Suspense } from "react";
+import React, { Suspense , useRef } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF} from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./earth_hologram/scene.gltf");
+  const earth = useGLTF("./envelope/scene.gltf");
 
   return (
     <>
-    <ambientLight intensity={5.5} />
-    <directionalLight position={[5, 10, 5]} intensity={1} />
-    <directionalLight position={[-5, 10, 5]} intensity={1} />
-    <directionalLight position={[5, 10, -5]} intensity={1} />
-    <directionalLight position={[-5, 10, -5]} intensity={1} />
-    <primitive object={earth.scene} scale={1.55} position={[0.4, 0.1, -0.5]}/>
+    <ambientLight intensity={1.5} />
+    <directionalLight position={[5, 10, 5]} intensity={25} />
+    <directionalLight position={[-5, 10, 5]} intensity={25} />
+    <directionalLight position={[5, 10, -5]} intensity={25} />
+    <directionalLight position={[-5, 10, -5]} intensity={25} />
+    <primitive object={earth.scene}  scale={1} position={[0.4, -3, -0.5]}/>
   </>
   );
 };
@@ -30,13 +30,14 @@ const EarthCanvas = () => {
         fov: 45,
         near: 0.7,
         far: 200,
-        position: [-6, -3, -6],
+        position: [5, -3, 8],
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
         {" "}
         <OrbitControls
           autoRotate
+          autoRotateSpeed={3.5}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

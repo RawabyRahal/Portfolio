@@ -1,7 +1,10 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
+import InputAdornment from "@mui/material/InputAdornment";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import { IconButton } from "@mui/material";
+import EmailIcon from "@mui/icons-material/Email";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -26,6 +29,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all fields before submitting.");
+      return;
+    }
     setLoading(true);
 
     emailjs
@@ -63,61 +70,22 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-5 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Reach out to me</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>CONTACT</p>
+        <h3 className={`${styles.sectionHeadText} sm:whitespace-nowrap`}>
+          Get In Touch.
+        </h3>
 
         <form
           ref={formRef}
           onSubmit={handleSubmit}
           className="mt-12 flex flex-col gap-8"
         >
-          {/* <label className="flex flex-col"> */}
-            {/* <span className="text-white font-medium mb-4">Name</span> */}
-            <TextField
-            label="Name"
-              type="text"
-              name="name"
-              variant="outlined"
-              className=" bg-tertiary font-medium mb-4 rounded-lg outline-none border-none font-medium"
-              inputProps={{ style: { color: "white" } }}
-              InputLabelProps={{ style: { color: "white" } }}
-              value={form.name}
-              onChange={handleChange}
-              placeholder="Full Name"
-              // className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          {/* </label> */}
-
-          {/* <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Email</span>
-            <input
-              type="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              placeholder="Enter your email (e.g., name@example.com)"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            />
-          </label> */}
-          <TextField
-            label="Email Address"
-            type="email"
-            name="email"
-            value={form.email}
-            variant="outlined"
-            className=" bg-tertiary font-medium rounded-lg outline-none border-none"
-            inputProps={{ style: { color: "white" } }}
-            InputLabelProps={{ style: { color: "white" } }}
-            placeholder="Enter your email (e.g., name@example.com)"
-            onChange={handleChange}
-          />
-
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Message</span>
             <textarea
@@ -130,17 +98,74 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex justify-end">
+            <TextField
+              label="Your name"
+              type="text"
+              name="name"
+              variant="standard"
+              inputProps={{
+                style: { color: "white", fontFamily: "Poppins, sans-serif" },
+              }}
+              InputLabelProps={{
+                style: { color: "white", fontFamily: "Poppins, sans-serif" },
+              }}
+              value={form.name}
+              onChange={handleChange}
+              placeholder="Enter your Full Name"
+              className=" custom-mui-input-underline w-1/2"
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <AccountCircleIcon style={{ color: "white" }} />
+                  </InputAdornment>
+                ),
+                style: { color: "white" },
+              }}
+            />
+          </div>
+
+          <div className="flex justify-end">
+            <TextField
+              label="Your email"
+              type="email"
+              name="email"
+              value={form.email}
+              variant="standard"
+              className="custom-mui-input-underline w-1/2"
+              inputProps={{
+                style: { color: "white", fontFamily: "Poppins, sans-serif" },
+              }}
+              InputLabelProps={{
+                style: { color: "white", fontFamily: "Poppins, sans-serif" },
+              }}
+              placeholder="(e.g., name@example.com)"
+              onChange={handleChange}
+              InputProps={{
+                endAdornment: (
+                  <InputAdornment position="end">
+                    <IconButton>
+                      <EmailIcon style={{ color: "white" }} />
+                    </IconButton>
+                  </InputAdornment>
+                ),
+              }}
+            />
+          </div>
+
+          <div className="flex justify-end">
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-nones w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              {loading ? "Sending..." : "Send message"}
+            </button>
+          </div>
         </form>
       </motion.div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn("right", "tween", 0.8, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />

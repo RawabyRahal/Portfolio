@@ -37,6 +37,8 @@ import api from "./tech/api.png";
 import bootstrap from "./tech/bootstrap.png";
 import materialize from "./tech/materialize.png";
 import xml from "./tech/xml.jpg";
+import mui from "./tech/mui.png";
+import axios from "./tech/axios.png";
 
 import java from "./tech/java.png";
 import sqlServer from "./tech/sql-server.png";
@@ -58,6 +60,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import bank from "./bank.png";
+import weather from "./weather.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -119,4 +123,8 @@ export {
   xml,
   mysql,
   json,
+  bank,
+  weather,
+  mui,
+  axios,
 };

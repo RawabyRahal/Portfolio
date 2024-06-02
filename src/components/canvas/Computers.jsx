@@ -18,14 +18,12 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <pointLight intensity={10} position={[-2, 3.5, 2]}/>
+      <pointLight intensity={10} position={[-2, 3.5, 2]} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.35 : 0.9}
         position={isMobile ? [-2, -1.5, 1.2] : [-1.5, -0.3, -0.5]}
         rotation={[-0.01, -0.2, -0.1]}
-        style={{ cursor: 'pointer' }}
-        title="Rotate Computer Model"
       />
     </mesh>
   );
@@ -57,14 +55,16 @@ const ComputersCanvas = () => {
       // dpr={[1, 2]}
       camera={{ position: [25, 10, 4], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      // style={{ cursor: "pointer" }}
+      // title="Rotate 3D computer model"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-
         <Computers isMobile={isMobile} />
       </Suspense>
 
