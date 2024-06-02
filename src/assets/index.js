@@ -60,6 +60,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import portfolio from "./portfolio.png";
 import bank from "./bank.png";
 import weather from "./weather.jpg";
 import jobit from "./jobit.png";
@@ -127,4 +128,5 @@ export {
   weather,
   mui,
   axios,
+  portfolio,
 };

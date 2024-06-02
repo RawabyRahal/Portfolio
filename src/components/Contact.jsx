@@ -70,7 +70,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-5 overflow-hidden`}
+      className={`xl:mt-8 flex xl:flex-row flex-col-reverse gap-5 overflow-hidden`}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
@@ -88,13 +88,25 @@ const Contact = () => {
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Message</span>
-            <textarea
+            {/* <textarea
               rows={7}
               name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What would you like to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+            /> */}
+            <textarea
+              rows={7}
+              name="message"
+              value={form.message}
+              onChange={handleChange}
+              placeholder="What would you like to say?"
+              className="bg-tertiary px-3 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              style={{
+                backgroundColor: "transparent",
+                backgroundImage: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(229, 225, 187)' x='0' y='23' width='10' height='1'/></svg>")`,
+              }}
             />
           </label>
 
@@ -153,7 +165,7 @@ const Contact = () => {
             />
           </div>
 
-          <div className="flex justify-end">
+          <div className="flex justify-end mt-9">
             <button
               type="submit"
               className="bg-tertiary py-3 px-8 rounded-xl outline-nones w-fit text-white font-bold shadow-md shadow-primary"
@@ -166,7 +178,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.8, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+        className="xl:flex-1 xl:h-auto w-[100px]"
       >
         <EarthCanvas />
       </motion.div>

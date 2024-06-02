@@ -33,6 +33,7 @@
 .custom-mui-input-underline .MuiInput-underline:hover:not(.Mui-disabled):before {
   border-bottom-color: var(--underline-color);
 }
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

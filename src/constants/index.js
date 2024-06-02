@@ -51,6 +51,7 @@ import {
   weather,
   mui,
   axios,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -66,6 +67,10 @@ export const navLinks = [
     "id": "projects",
     "title": "Projects"
   },
+  // {
+  //   "id": "technologies",
+  //   "title": "Technologies"
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -335,27 +340,26 @@ const projects = [
     image: weather,
     source_code_link: "https://github.com/RawabyRahal/weather-app",
   },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+  {
+    name: "Portfolio",
+    description: "A responsive personal portfolio website to showcase my skills, projects, and experience. The website includes interactive sections such as an about me page, project gallery, and contact form.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/RawabyRahal/Portfolio",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
