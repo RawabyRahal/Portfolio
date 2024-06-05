@@ -6,6 +6,12 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import {
+  LightningBoltIcon,
+  GlobeAltIcon,
+  DatabaseIcon,
+  CodeIcon,
+} from "@heroicons/react/solid";
 
 const ProjectCard = ({
   index,
@@ -50,6 +56,17 @@ const ProjectCard = ({
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
+
+        <div className="mt-4 flex flex-wrap gap-2">
+          {tags.map((tag) => (
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[14px] ${tag.color}`}
+            >
+              #{tag.name}
+            </p>
+          ))}
+        </div>
       </Tilt>
     </motion.div>
   );
@@ -71,11 +88,18 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
           Outlined below are projects showcasing my programming proficiency and
-          experience. Each project is accompanied by links to its website and
-          code repositories, illustrating my capability to address complex
-          challenges, adapt to diverse technologies, and manage project
-          workflows effectively.
+          experience. Each project is accompanied by a link to its code
+          repository, illustrating my capability to address complex challenges,
+          adapt to diverse technologies, and manage project workflows
+          effectively.
         </motion.p>
+      </div>
+
+      <div className="flex justify-center space-x-4">
+        <LightningBoltIcon className="h-6 w-6 text-yellow-500" />
+        <GlobeAltIcon className="h-6 w-6 text-blue-500" />
+        <DatabaseIcon className="h-6 w-6 text-green-500" />
+        <CodeIcon className="h-6 w-6 text-purple-500" />
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
