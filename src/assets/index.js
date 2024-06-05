@@ -15,6 +15,11 @@ import rocket from "./rocket.png";
 import rocketSVG from "./rocket.svg";
 import home2 from "./home2.png";
 import home3 from "./home3.png";
+import tweeter from "./tweeter.png";
+import reflix from "./reflix.png";
+import rupg from "./rupg.png";
+import astrogrid from "./astrogrid.png";
+import hangman from "./hangman.png";
 import planets from "./planets.png";
 import softwareEngineer from "./softwareEngineer.png";
 
@@ -131,4 +136,9 @@ export {
   axios,
   portfolio,
   softwareEngineer,
+  hangman,
+  tweeter,
+  reflix,
+  rupg,
+  astrogrid,
 };

@@ -53,6 +53,11 @@ import {
   axios,
   portfolio,
   softwareEngineer,
+  hangman,
+  tweeter,
+  reflix,
+  rupg,
+  astrogrid,
 } from "../assets";
 
 export const navLinks = [
@@ -336,20 +341,6 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Banking App",
-    description:
-      "User-friendly web application is designed to simplify your banking experience by effortlessly tracking all your transactions, whether it's a deposit or withdrawal.",
-    image: bank,
-    source_code_link: "https://github.com/RawabyRahal/Bank",
-  },
-  {
-    name: "Weather App",
-    description:
-      "User-friendly web application is designed to provide you with the most accurate temperature information for any country you search for.",
-    image: weather,
-    source_code_link: "https://github.com/RawabyRahal/weather-app",
-  },
-  {
     name: "Portfolio",
     description: "A responsive personal portfolio website to showcase my skills, projects, and experience. The website includes interactive sections such as an about me page, project gallery, and contact form.",
     tags: [
@@ -368,6 +359,52 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/RawabyRahal/Portfolio",
+  },
+  {
+    name: "AstroGrid Game",
+    description:
+      "Embark on the AstroGrid game! This thrilling space-themed adventure sets two players on a cosmic race to the finish line.",
+    image: astrogrid,
+    source_code_link: "https://github.com/RawabyRahal/A-lliance-App",
+  },
+  {
+    name: "Banking App",
+    description:
+      "User-friendly web application is designed to simplify your banking experience by effortlessly tracking all your transactions, whether it's a deposit or withdrawal.",
+    image: bank,
+    source_code_link: "https://github.com/RawabyRahal/Banking-App",
+  },
+  {
+    name: "Weather App",
+    description:
+      "User-friendly web application is designed to provide you with the most accurate temperature information for any country you search for.",
+    image: weather,
+    source_code_link: "https://github.com/RawabyRahal/Weather-App",
+  },
+  
+  {
+    name: "Hangman Game",
+    description: "A fun and interactive Hangman game built with React, featuring dynamic word generation and an engaging UI.",
+    image: hangman,
+    source_code_link: "https://github.com/RawabyRahal/Hangman",
+  },
+  {
+    name: "Tweeter",
+    description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
+    image: tweeter,
+    source_code_link: "https://github.com/RawabyRahal/Tweeter",
+  },
+  {
+    name: "Reflix",
+    description: "Reflix is a movie rental app. It allows a user to browse a catalog of movies, and select some to rent, so long as the user has the budget for it. This is a very special kind of renting system wherein the money is returned to the user when the movie is returned.",
+    image: reflix,
+    source_code_link: "https://github.com/RawabyRahal/Reflix",
+  },
+  {
+    name: "RUPG App",
+    description: "RUPG (Random User Page Generator) is a dynamic web application that simulates a Facebook profile page. This project was born out of the idea of creating a platform where users can experience the randomness and diversity of content generated from various APIs.",
+    image: rupg,
+    source_code_link: "https://github.com/RawabyRahal/Random-User-Page-Generator",
   },
 ];
 
