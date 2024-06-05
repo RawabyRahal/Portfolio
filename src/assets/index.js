@@ -19,6 +19,8 @@ import tweeter from "./tweeter.png";
 import reflix from "./reflix.png";
 import rupg from "./rupg.png";
 import astrogrid from "./astrogrid.png";
+import recipes from "./recipes.png";
+
 import hangman from "./hangman.png";
 import planets from "./planets.png";
 import softwareEngineer from "./softwareEngineer.png";
@@ -141,4 +143,5 @@ export {
   reflix,
   rupg,
   astrogrid,
+  recipes,
 };

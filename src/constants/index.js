@@ -58,6 +58,7 @@ import {
   reflix,
   rupg,
   astrogrid,
+  recipes,
 } from "../assets";
 
 export const navLinks = [
@@ -366,6 +367,13 @@ const projects = [
       "Embark on the AstroGrid game! This thrilling space-themed adventure sets two players on a cosmic race to the finish line.",
     image: astrogrid,
     source_code_link: "https://github.com/RawabyRahal/A-lliance-App",
+  },
+  {
+    name: "Recipe App",
+    description:
+      "Recipe app provides a user-friendly platform for discovering and exploring a wide variety of recipes. Whether you're a seasoned chef or a kitchen novice, our app makes it easy to find delicious recipes that match your tastes and dietary preferences.",
+    image: recipes,
+    source_code_link: "https://github.com/RawabyRahal/Recipe-App.git",
   },
   {
     name: "Banking App",
