@@ -1,7 +1,7 @@
 # Portfolio
 
 Welcome to my portfolio!
-Here you'll find a showcase of some of my projects and the technologies I've used to build them.
+Here, I've created a space where you can explore my projects, learn more about me, and discover the technologies I've employed to bring these projects to life. Within this portfolio, you'll find dedicated sections for an about me, contact information, a showcase of projects, and an overview of the technologies I utilize. Whether you're interested in getting to know me better, exploring my projects, or discovering the tools and technologies I work with, I invite you to delve into the various sections of this portfolio.
 
 ## ⚙️ Technologies Used
 
