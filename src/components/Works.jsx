@@ -114,7 +114,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="flex justify-center space-x-4">
+      {/* <div className="flex justify-center space-x-4">
         <LightningBoltIcon className="h-6 w-6 text-yellow-500" />
         <GlobeAltIcon className="h-6 w-6 text-blue-500" />
         <DatabaseIcon className="h-6 w-6 text-green-500" />
@@ -123,8 +123,8 @@ const Works = () => {
         <TerminalIcon className="h-6 w-6 text-yellow-500" />
         <ChipIcon className="h-6 w-6 text-red-500" />
         <WifiIcon className="h-6 w-6 text-blue-500" />
-        {/* <MicrochipIcon className="h-6 w-6 text-green-500" /> */}
-      </div>
+        <MicrochipIcon className="h-6 w-6 text-green-500" />
+      </div> */}
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
