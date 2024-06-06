@@ -346,16 +346,20 @@ const projects = [
     description: "A responsive personal portfolio website to showcase my skills, projects, and experience. The website includes interactive sections such as an about me page, project gallery, and contact form.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "React Three Fiber",
         color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "orange-text-gradient",
       },
     ],
     image: portfolio,
@@ -367,15 +371,32 @@ const projects = [
       "Embark on the AstroGrid game! This thrilling space-themed adventure sets two players on a cosmic race to the finish line.",
       tags: [
         {
-          name: "nextjs",
+          name: "Node.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
+        
         {
-          name: "css",
+          name: "Mongoose",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
@@ -388,16 +409,24 @@ const projects = [
       "Recipe app provides a user-friendly platform for discovering and exploring a wide variety of recipes. Whether you're a seasoned chef or a kitchen novice, our app makes it easy to find delicious recipes that match your tastes and dietary preferences.",
       tags: [
         {
-          name: "nextjs",
+          name: "Node.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Express.js",
           color: "pink-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "purple-text-gradient",
         },
       ],
       image: recipes,
@@ -409,15 +438,29 @@ const projects = [
       "User-friendly web application is designed to simplify your banking experience by effortlessly tracking all your transactions, whether it's a deposit or withdrawal.",
       tags: [
         {
-          name: "nextjs",
+          name: "React.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        }, {
+          name: "Mongoose",
+          color: "pink-text-gradient",
+        }, {
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
@@ -430,15 +473,29 @@ const projects = [
       "User-friendly web application is designed to provide you with the most accurate temperature information for any country you search for.",
       tags: [
         {
-          name: "nextjs",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "JavaScript",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        }, {
+          name: "Mongoose",
+          color: "pink-text-gradient",
+        }, {
+          name: "MongoDB",
           color: "pink-text-gradient",
         },
       ],
@@ -450,15 +507,15 @@ const projects = [
     description: "Reflix is a movie rental app. It allows a user to browse a catalog of movies, and select some to rent, so long as the user has the budget for it. This is a very special kind of renting system wherein the money is returned to the user when the movie is returned.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -470,15 +527,15 @@ const projects = [
     description: "A fun and interactive Hangman game built with React, featuring dynamic word generation and an engaging UI.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -490,15 +547,15 @@ const projects = [
     description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
@@ -511,15 +568,15 @@ const projects = [
     description: "RUPG (Random User Page Generator) is a dynamic web application that simulates a Facebook profile page. This project was born out of the idea of creating a platform where users can experience the randomness and diversity of content generated from various APIs.",
     tags: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],

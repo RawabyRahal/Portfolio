@@ -6,12 +6,22 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+
+import BuildIcon from "@mui/icons-material/Build";
+
 import {
   LightningBoltIcon,
   GlobeAltIcon,
   DatabaseIcon,
   CodeIcon,
+  DesktopComputerIcon,
+  ServerIcon,
+  TerminalIcon,
+  ChipIcon,
+  WifiIcon,
 } from "@heroicons/react/solid";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCogs } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({
   index,
@@ -57,15 +67,24 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
+        <div className="mt-4 flex gap-2 mt-5">
+          <div title="Technologies Used">
+            <FontAwesomeIcon
+              icon={faCogs}
+              className="text-yellow-500 cursor-pointer"
+              size="xl"
+            />
+          </div>
+          <div className="flex flex-wrap gap-2 ml-1">
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                | {tag.name}
+              </p>
+            ))}
+          </div>
         </div>
       </Tilt>
     </motion.div>
@@ -99,7 +118,12 @@ const Works = () => {
         <LightningBoltIcon className="h-6 w-6 text-yellow-500" />
         <GlobeAltIcon className="h-6 w-6 text-blue-500" />
         <DatabaseIcon className="h-6 w-6 text-green-500" />
-        <CodeIcon className="h-6 w-6 text-purple-500" />
+        <DesktopComputerIcon className="h-6 w-6 text-gray-500" />
+        <ServerIcon className="h-6 w-6 text-indigo-500" />
+        <TerminalIcon className="h-6 w-6 text-yellow-500" />
+        <ChipIcon className="h-6 w-6 text-red-500" />
+        <WifiIcon className="h-6 w-6 text-blue-500" />
+        {/* <MicrochipIcon className="h-6 w-6 text-green-500" /> */}
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
