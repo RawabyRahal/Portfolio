@@ -14,3 +14,11 @@ Welcome to my portfolio! Here you'll find a showcase of some of my projects and 
 - **[Vite](https://vitejs.dev/):** A build tool that provides a faster and leaner development experience for modern web projects.
 - **[EmailJS](https://www.emailjs.com/):** A service for sending emails directly from JavaScript applications.
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
+
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
