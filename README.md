@@ -12,10 +12,11 @@ Here, I've created a space where you can explore my projects, learn more about m
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
 
 ## 🛠️ Tools and Libraries
-
 - **[Vite](https://vitejs.dev/):** A build tool that provides a faster and leaner development experience for modern web projects.
 - **[EmailJS](https://www.emailjs.com/):** A service for sending emails directly from JavaScript applications.
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
+- **[npm](https://www.npmjs.com/):** Node Package Manager for managing project dependencies.
+
 
 
 
