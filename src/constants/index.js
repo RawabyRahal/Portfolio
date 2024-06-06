@@ -371,17 +371,12 @@ const projects = [
       "Embark on the AstroGrid game! This thrilling space-themed adventure sets two players on a cosmic race to the finish line.",
       tags: [
         {
-          name: "Node.js",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "JavaScript",
+          name: "Node.js",
           color: "green-text-gradient",
-        },
-        
-        {
-          name: "Mongoose",
-          color: "pink-text-gradient",
         },
         {
           name: "Express.js",
@@ -396,8 +391,12 @@ const projects = [
           color: "purple-text-gradient",
         },
         {
+          name: "Mongoose",
+          color: "blue-text-gradient",
+        },
+        {
           name: "MongoDB",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
     image: astrogrid,
@@ -482,7 +481,7 @@ const projects = [
         },
         {
           name: "Node.js",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "Express.js",
