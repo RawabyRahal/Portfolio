@@ -10,7 +10,7 @@ Here, I've created a space where you can explore my projects, learn more about m
 
 ## ⚙️ Technologies Used
 
-[![My Skills](https://skillicons.dev/icons?i=react)] A JavaScript library for building user interfaces.
+[![My Skills](https://skillicons.dev/icons?i=react) A JavaScript library for building user interfaces.
 - **[Three.js](https://threejs.org/):** A JavaScript library for creating and displaying animated 3D graphics.
 - **[React Three Fiber](https://github.com/pmndrs/react-three-fiber):** A React renderer for Three.js.
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
