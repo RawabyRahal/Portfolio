@@ -20,18 +20,6 @@ Here, I've created a space where you can explore my projects, learn more about m
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
 - **[npm](https://www.npmjs.com/):** Node Package Manager for managing project dependencies.
 
-## 🛠️ Tools and Libraries
-
-- ![VS Code](https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png)
-- ![Postman](https://img.icons8.com/fluent/48/000000/postman-api.png)
-- ![Vite](https://vitejs.dev/logo.svg) 
-- ![EmailJS](https://www.emailjs.com/favicon.ico)
-- ![React Three Drei](https://github.com/pmndrs/drei/raw/master/logo.png)
-- ![react-toastify](https://fkhadra.github.io/react-toastify/logo.svg) 
-- ![npm](https://img.icons8.com/color/48/000000/npm.png) 
-
-
-
 ## Installation
 
 1. Clone the repository:
