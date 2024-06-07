@@ -358,8 +358,20 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "React Router DOM",
         color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React Icons",
+        color: "yellow-text-gradient",
       },
     ],
     image: portfolio,
@@ -375,28 +387,28 @@ const projects = [
           color: "blue-text-gradient",
         },
         {
-          name: "Node.js",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "Express.js",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
         {
-          name: "HTML",
+          name: "Express.js",
           color: "orange-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Mongoose",
           color: "purple-text-gradient",
         },
         {
-          name: "Mongoose",
-          color: "blue-text-gradient",
+          name: "MongoDB",
+          color: "red-text-gradient",
         },
         {
-          name: "MongoDB",
-          color: "green-text-gradient",
+          name: "CSS",
+          color: "yellow-text-gradient",
         },
       ],
     image: astrogrid,
@@ -408,7 +420,7 @@ const projects = [
       "Recipe app provides a user-friendly platform for discovering and exploring a wide variety of recipes. Whether you're a seasoned chef or a kitchen novice, our app makes it easy to find delicious recipes that match your tastes and dietary preferences.",
       tags: [
         {
-          name: "Node.js",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
@@ -416,11 +428,11 @@ const projects = [
           color: "green-text-gradient",
         },
         {
-          name: "Express.js",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
         {
-          name: "HTML",
+          name: "Express.js",
           color: "orange-text-gradient",
         },
         {
@@ -446,21 +458,34 @@ const projects = [
         },
         {
           name: "Node.js",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "Express.js",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
+        },
+         {
+          name: "Mongoose",
+          color: "purple-text-gradient",
+        }, {
+          name: "MongoDB",
+          color: "red-text-gradient",
+        },
+        {
+          name: "React Router DOM",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "React Icons",
+          color: "violet-blue-text-gradient",
         },
         {
           name: "CSS",
-          color: "pink-text-gradient",
-        }, {
-          name: "Mongoose",
-          color: "pink-text-gradient",
-        }, {
-          name: "MongoDB",
-          color: "pink-text-gradient",
+          color: "orange-blue-text-gradient",
+        },
+        {
+          name: "MUI",
+          color: "green-blue-text-gradient",
         },
       ],
       image: bank,
@@ -485,17 +510,17 @@ const projects = [
         },
         {
           name: "Express.js",
-          color: "pink-text-gradient",
+          color: "orange-text-gradient",
         },
         {
           name: "CSS",
-          color: "pink-text-gradient",
+          color: "purple-text-gradient",
         }, {
           name: "Mongoose",
-          color: "pink-text-gradient",
+          color: "red-text-gradient",
         }, {
           name: "MongoDB",
-          color: "pink-text-gradient",
+          color: "yellow-text-gradient",
         },
       ],
       image: weather,
@@ -514,8 +539,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "React Router DOM",
         color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "React Icons",
+        color: "red-text-gradient",
       },
     ],
     image: reflix,
@@ -536,6 +573,14 @@ const projects = [
       {
         name: "CSS",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MUI",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React Icons",
+        color: "purple-text-gradient",
       },
     ],
     image: hangman,

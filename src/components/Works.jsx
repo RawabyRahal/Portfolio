@@ -68,11 +68,11 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-4 flex gap-2 mt-5">
-          <div title="Technologies Used">
-            <FontAwesomeIcon
-              icon={faCogs}
-              className="text-yellow-500 cursor-pointer"
-              size="xl"
+          <div className="flex items-center" title="Technologies Used">
+            <CodeIcon
+              // icon={faCogs}
+              className="h-7 w-7 text-yellow-500 cursor-pointer"
+              // size="xl"
             />
           </div>
           <div className="flex flex-wrap gap-2 ml-1">
@@ -106,7 +106,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
-          Outlined below are projects showcasing my programming proficiency and
+          Outlined below are several projects showcasing my programming proficiency and
           experience. Each project is accompanied by a link to its code
           repository, illustrating my capability to address complex challenges,
           adapt to diverse technologies, and manage project workflows
@@ -123,6 +123,7 @@ const Works = () => {
         <TerminalIcon className="h-6 w-6 text-yellow-500" />
         <ChipIcon className="h-6 w-6 text-red-500" />
         <WifiIcon className="h-6 w-6 text-blue-500" />
+        <CodeIcon className="h-6 w-6 text-yellow-500" />
         <MicrochipIcon className="h-6 w-6 text-green-500" />
       </div> */}
 
