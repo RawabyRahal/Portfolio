@@ -10,6 +10,9 @@ Here, I've created a space where you can explore my projects, learn more about m
 - **[Three.js](https://threejs.org/):** A JavaScript library for creating and displaying animated 3D graphics.
 - **[React Three Fiber](https://github.com/pmndrs/react-three-fiber):** A React renderer for Three.js.
 - **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapidly building custom user interfaces.
+- **[React Router DOM](https://reactrouter.com/):** Declarative routing for React applications."
+- **[Material-UI (MUI)](https://mui.com/):** A popular React UI framework for building responsive web applications."
+- **[react-toastify](https://github.com/fkhadra/react-toastify):** A simple, lightweight library for creating toast notifications in React applications."
 
 ## 🛠️ Tools and Libraries
 - **[Vite](https://vitejs.dev/):** A build tool that provides a faster and leaner development experience for modern web projects.
