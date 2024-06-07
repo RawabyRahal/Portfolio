@@ -1,11 +1,11 @@
-import React, { Suspense, useRef } from "react";
+import React, { Suspense, useRef, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 import { Padding } from "@mui/icons-material";
 
-const Earth = () => {
+const Earth = ({ isMobile }) => {
   const earth = useGLTF("./envelope/scene.gltf");
 
   return (
@@ -15,12 +15,26 @@ const Earth = () => {
       <directionalLight position={[-5, 10, 5]} intensity={25} />
       <directionalLight position={[5, 10, -5]} intensity={25} />
       <directionalLight position={[-5, 10, -5]} intensity={25} />
-      <primitive object={earth.scene} scale={1} position={[0.4, -3, -0.5]} />
+      <primitive
+        object={earth.scene}
+        scale={isMobile ? 0.55 : 1}
+        position={isMobile ? [4, 1.45, -1] : [0.4, -3, -0.5]}
+      />
     </>
   );
 };
 
 const EarthCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
+    setIsMobile(mediaQuery.matches);
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+  });
   return (
     <Canvas
       shadows
@@ -43,7 +57,7 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
+        <Earth isMobile={isMobile} />
       </Suspense>
     </Canvas>
   );

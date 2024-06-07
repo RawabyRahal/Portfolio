@@ -68,10 +68,10 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-4 flex gap-2 mt-5">
-          <div className="flex items-center" title="Technologies Used">
+          <div title="Technologies Used">
             <CodeIcon
               // icon={faCogs}
-              className="h-7 w-7 text-yellow-500 cursor-pointer"
+              className="h-7 w-7 text-yellow-500 "
               // size="xl"
             />
           </div>

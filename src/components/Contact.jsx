@@ -9,8 +9,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import Confetti from "react-confetti";
 
 import TextField from "@mui/material/TextField";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
   const formRef = useRef();
@@ -21,6 +24,7 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [showConfetti, setShowConfetti] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,7 +34,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
-      alert("Please fill in all fields before submitting.");
+      toast.warn("Please fill in all fields before submitting.");
       return;
     }
     setLoading(true);
@@ -51,21 +55,26 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Much appreciated! I'll be in touch as soon as possible.");
+          toast.success(
+            "Much appreciated! I'll be in touch as soon as possible."
+          );
 
           setForm({
             name: "",
             email: "",
             message: "",
           });
+          setShowConfetti(true);
+          setTimeout(() => setShowConfetti(false), 5000);
         },
         (error) => {
           setLoading(false);
           console.error(error);
 
-          alert("Whoops! Something went wrong. Please RETRY");
+          toast.error("Whoops! Something went wrong. Please RETRY");
         }
       );
+    Confetti({});
   };
 
   return (
@@ -88,14 +97,6 @@ const Contact = () => {
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Message</span>
-            {/* <textarea
-              rows={7}
-              name="message"
-              value={form.message}
-              onChange={handleChange}
-              placeholder="What would you like to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
-            /> */}
             <textarea
               rows={7}
               name="message"
@@ -182,6 +183,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <ToastContainer position="bottom-center" />
     </div>
   );
 };

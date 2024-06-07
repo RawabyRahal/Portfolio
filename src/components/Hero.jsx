@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`absolute inset-0 top-[160px] xs:max-w-12xl max-w-8xl gap-x-10 ml-20 mx-auto ${styles.paddingX} flex flex-row items-start`}
+        className={`absolute inset-0 xl:top-[160px] xs:max-w-12xl xl:flex-row flex-col-reverse max-w-8xl  ml-20 mx-auto ${styles.paddingX} flex flex-row items-start`}
       >
-        <div>
+        <div className="xs: mb-[120px]">
           <h1 className={`${styles.heroHeadText} text-white `}>
             Hi There! 👋🏻 <br className="sm:block hidden" />
             <div className=" sm:whitespace-nowrap">
