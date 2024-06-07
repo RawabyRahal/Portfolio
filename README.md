@@ -20,6 +20,15 @@ Here, I've created a space where you can explore my projects, learn more about m
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
 - **[npm](https://www.npmjs.com/):** Node Package Manager for managing project dependencies.
 
+## 🛠️ Tools and Libraries
+
+- ![VS Code](https://img.icons8.com/fluent/48/000000/visual-studio-code-2019.png) **Visual Studio Code (VS Code):** A powerful, open-source code editor with support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.
+- ![Postman](https://img.icons8.com/fluent/48/000000/postman-api.png) **Postman:** A collaborative platform for API development that makes it easy to create, share, test, and document APIs.
+- ![Vite](https://vitejs.dev/logo.svg) **Vite:** A build tool that provides a faster and leaner development experience for modern web projects.
+- ![EmailJS](https://www.emailjs.com/favicon.ico) **EmailJS:** A service for sending emails directly from JavaScript applications.
+- ![React Three Drei](https://github.com/pmndrs/drei/raw/master/logo.png) **React Three Drei:** A helper library for React Three Fiber that provides useful components and helpers.
+- ![react-toastify](https://fkhadra.github.io/react-toastify/logo.svg) **react-toastify:** A library for adding customizable, responsive toast notifications to enhance user feedback.
+- ![npm](https://img.icons8.com/color/48/000000/npm.png) **npm:** Node Package Manager for managing project dependencies.
 
 
 
