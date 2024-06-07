@@ -6,6 +6,8 @@ Here, I've created a space where you can explore my projects, learn more about m
 
 [![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=1)](https://skillicons.dev)
 
+[![My Skills](https://skillicons.dev/icons?i=react)](https://reactjs.org/)
+
 ## ⚙️ Technologies Used
 
 - **[React.js](https://reactjs.org/):** A JavaScript library for building user interfaces.
