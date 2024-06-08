@@ -4,6 +4,9 @@
 
 Here, I've created a space where you can explore my projects, learn more about me, and discover the technologies I've employed to bring these projects to life. Within this portfolio, you'll find dedicated sections for an about me, contact information, a showcase of projects, and an overview of the technologies I utilize. Whether you're interested in getting to know me better, exploring my projects, or discovering the tools and technologies I work with, I invite you to delve into the various sections of this portfolio.
 
+[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=1)](https://skillicons.dev)
+
+
 ## ⚙️ Technologies Used
 
 - **[React.js](https://reactjs.org/):** A JavaScript library for building user interfaces.
@@ -19,9 +22,6 @@ Here, I've created a space where you can explore my projects, learn more about m
 - **[EmailJS](https://www.emailjs.com/):** A service for sending emails directly from JavaScript applications.
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
 - **[npm](https://www.npmjs.com/):** Node Package Manager for managing project dependencies.
-
-
-
 
 ## Installation
 
@@ -43,6 +43,7 @@ Here, I've created a space where you can explore my projects, learn more about m
    npm start
 5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio.
 
+<br>
 
 ### Dive into My Portfolio!
 
