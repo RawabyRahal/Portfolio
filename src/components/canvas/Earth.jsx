@@ -17,8 +17,8 @@ const Earth = ({ isMobile }) => {
       <directionalLight position={[-5, 10, -5]} intensity={25} />
       <primitive
         object={earth.scene}
-        scale={isMobile ? 0.55 : 1}
-        position={isMobile ? [4, 1.45, -1] : [0.4, -3, -0.5]}
+        scale={isMobile ? 1 : 1}
+        position={isMobile ? [2, -3.85, 2.5] : [0.4, -3, -0.5]}
       />
     </>
   );

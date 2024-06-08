@@ -587,27 +587,6 @@ const projects = [
     source_code_link: "https://github.com/RawabyRahal/Hangman",
   },
   {
-    name: "Tweeter",
-    description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tweeter,
-    source_code_link: "https://github.com/RawabyRahal/Tweeter",
-  },
- 
-  {
     name: "RUPG App",
     description: "RUPG (Random User Page Generator) is a dynamic web application that simulates a Facebook profile page. This project was born out of the idea of creating a platform where users can experience the randomness and diversity of content generated from various APIs.",
     tags: [
@@ -626,6 +605,26 @@ const projects = [
     ],
     image: rupg,
     source_code_link: "https://github.com/RawabyRahal/Random-User-Page-Generator",
+  },
+  {
+    name: "Tweeter",
+    description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tweeter,
+    source_code_link: "https://github.com/RawabyRahal/Tweeter",
   },
 ];
 

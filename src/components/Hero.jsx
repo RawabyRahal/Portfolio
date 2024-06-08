@@ -12,7 +12,7 @@ const Hero = () => {
       >
         <div className="xs: mb-[120px]">
           <h1 className={`${styles.heroHeadText} text-white `}>
-            Hi There! 👋🏻 <br className="sm:block hidden" />
+            Hi There! <span className="wave">👋🏻</span><br className="sm:block hidden" />
             <div className=" sm:whitespace-nowrap">
               {" "}
               I'm <span className="space-gradient">Rawaby Rahal</span>

@@ -48,7 +48,7 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end rounded-2xl m-2 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-2xl flex justify-center items-center cursor-pointer"
@@ -67,7 +67,7 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex gap-2 mt-5">
+        <div className="ml-1 flex gap-3 mt-4">
           <div title="Technologies Used">
             <CodeIcon
               // icon={faCogs}
@@ -80,8 +80,7 @@ const ProjectCard = ({
               <p
                 key={`${name}-${tag.name}`}
                 className={`text-[14px] ${tag.color}`}
-              >
-                | {tag.name}
+              >{tag.name} |
               </p>
             ))}
           </div>
