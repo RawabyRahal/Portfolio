@@ -4,8 +4,22 @@ import { technologies, tools } from "../constants";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
+import Tooltip from "@mui/material/Tooltip";
+import TechnologyModal from "./TechnologyModal";
+import { useState } from "react";
 
 const Tech = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [ballPosition, setBallPosition] = useState({ x: 0, y: 0 });
+
+  const handleItemClick = (item, event) => {
+    const rect = event.target.getBoundingClientRect();
+    setBallPosition({ x: rect.left, y: rect.top });
+    setSelectedItem(item);
+    setShowModal(true);
+  };
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -19,12 +33,30 @@ const Tech = () => {
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {technologies.map((technology) => (
-          <div className="w-28 h-28" key={technology.name}>
-            <a title={technology.name} style={{ cursor: "pointer" }}>
+          <Tooltip
+            key={technology.name}
+            placement="bottom"
+            title={technology.name}
+            style={{ cursor: "pointer" }}
+          >
+            <div
+              className="w-28 h-28"
+              key={technology.name}
+              onClick={(e) => handleItemClick({ ...technology, type: 'technology' }, e)}
+            >
               <BallCanvas icon={technology.icon} />
-            </a>
-          </div>
+            </div>
+          </Tooltip>
         ))}
+
+        {/* {showModal && (
+          <TechnologyModal
+            show={showModal}
+            onHide={() => setShowModal(false)}
+            technology={selectedTechnology}
+            ballPosition={selectedBallPosition}
+          />
+        )} */}
       </div>
 
       <motion.div variants={textVariant()}>
@@ -35,12 +67,27 @@ const Tech = () => {
 
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {tools.map((tool) => (
-          <div className="w-28 h-28" key={tool.name}>
-            <a title={tool.name} style={{ cursor: "pointer" }}>
+          <Tooltip
+            key={tool.name}
+            placement="bottom"
+            title={tool.name}
+            style={{ cursor: "pointer" }}
+          >
+            <div className="w-28 h-28" key={tool.name} onClick={(e) => handleItemClick({ ...tool, type: 'tool' }, e)}
+            >
               <BallCanvas icon={tool.icon} />
-            </a>
-          </div>
+            </div>
+          </Tooltip>
         ))}
+
+{showModal && (
+        <TechnologyModal
+          show={showModal}
+          onHide={() => setShowModal(false)}
+          item={selectedItem}
+          ballPosition={ballPosition}
+        />
+      )}
       </div>
     </>
   );

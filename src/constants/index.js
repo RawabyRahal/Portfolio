@@ -115,148 +115,278 @@ const services = [
   }
 ];
 
+// const technologies = [
+//   {
+//     name: "HTML 5",
+//     icon: html,
+//   },
+//   {
+//     name: "CSS 3",
+//     icon: css,
+//   },
+//   {
+//     name: "Java",
+//     icon: java,
+//   },
+//   {
+//     name: "JavaScript",
+//     icon: javascript,
+//   },
+//   {
+//     name: "JQuery",
+//     icon: jquery,
+//   },
+//   // {
+//   //   name: "TypeScript",
+//   //   icon: typescript,
+//   // },
+//   {
+//     name: "React JS",
+//     icon: reactjs,
+//   },
+//   {
+//     name: "SQL",
+//     icon: sql,
+//   },
+//   // {
+//   //   name: "Redux Toolkit",
+//   //   icon: redux,
+//   // },
+//   {
+//     name: "Tailwind CSS",
+//     icon: tailwind,
+//   },
+//   {
+//     name: "MUI",
+//     icon: mui,
+//   },
+//   {
+//     name: "Axios",
+//     icon: axios,
+//   },
+//   {
+//     name: "Node JS",
+//     icon: nodejs,
+//   },
+//   {
+//     name: "Spring Boot",
+//     icon: springBoot,
+//   },
+//   {
+//     name: "XML",
+//     icon: xml,
+//   },
+//   {
+//     name: "JSON",
+//     icon: json,
+//   },
+//   {
+//     name: "Express JS",
+//     icon: expessjs,
+//   },
+//   {
+//     name: "MongoDB",
+//     icon: mongodb,
+//   },
+//   {
+//     name: "Mongoose",
+//     icon: mongoose,
+//   },
+//   {
+//     name: "MySQL",
+//     icon: mysql,
+//   },
+//   {
+//     name: "SQL Server",
+//     icon: sqlServer,
+//   },
+//   {
+//     name: "Bootstrap",
+//     icon: bootstrap,
+//   },
+//   {
+//     name: "Materialize",
+//     icon: materialize,
+//   },
+//   // {
+//   //   name: "Three JS",
+//   //   icon: threejs,
+//   // },
+//   {
+//     name: "Git",
+//     icon: git,
+//   },
+//   {
+//     name: "Github",
+//     icon: github,
+//   },
+//   {
+//     name: "RESTful API",
+//     icon: restApi,
+//   },
+//   // {
+//   //   name: "API",
+//   //   icon: api,
+//   // },
+  
+//   // {
+//   //   name: "docker",
+//   //   icon: docker,
+//   // },
+// ];
+
 const technologies = [
   {
     name: "HTML 5",
     icon: html,
+    description: "Hypertext Markup Language used for structuring web pages and applications.",
   },
   {
     name: "CSS 3",
     icon: css,
+    description: "Cascading Style Sheets used for styling web pages and applications.",
   },
   {
     name: "Java",
     icon: java,
+    description: "A widely-used programming language known for its portability and versatility.",
   },
   {
     name: "JavaScript",
     icon: javascript,
+    description: "A versatile scripting language used for adding interactivity and dynamic behavior to web pages.",
   },
   {
     name: "JQuery",
     icon: jquery,
+    description: "A fast, small, and feature-rich JavaScript library for simplifying web development tasks.",
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
   {
     name: "React JS",
     icon: reactjs,
+    description: "A JavaScript library for building user interfaces, commonly used for creating single-page applications.",
   },
   {
     name: "SQL",
     icon: sql,
+    description: "Structured Query Language used for managing and manipulating databases.",
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+    description: "A utility-first CSS framework for creating custom designs without writing CSS from scratch.",
   },
   {
     name: "MUI",
     icon: mui,
+    description: "A popular React UI framework providing pre-designed components for building modern web applications.",
   },
   {
     name: "Axios",
     icon: axios,
+    description: "A promise-based HTTP client for making asynchronous HTTP requests in JavaScript environments.",
   },
   {
     name: "Node JS",
     icon: nodejs,
+    description: "A JavaScript runtime environment used for building server-side applications and APIs.",
   },
   {
     name: "Spring Boot",
     icon: springBoot,
+    description: "An open-source Java-based framework used for building production-ready, stand-alone, and high-performance Spring applications.",
   },
   {
     name: "XML",
     icon: xml,
+    description: "Extensible Markup Language used for storing and transporting data.",
   },
   {
     name: "JSON",
     icon: json,
+    description: "JavaScript Object Notation used for storing and exchanging data between a browser and a server.",
   },
   {
     name: "Express JS",
     icon: expessjs,
+    description: "A fast, unopinionated, and minimalist web framework for Node.js used for building web applications and APIs.",
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    description: "A NoSQL database program used for storing data in JSON-like documents with dynamic schemas.",
   },
   {
     name: "Mongoose",
     icon: mongoose,
+    description: "An Object Data Modeling (ODM) library for MongoDB and Node.js used for schema-based modeling and validation.",
   },
   {
     name: "MySQL",
     icon: mysql,
+    description: "A popular open-source relational database management system used for managing and querying structured data.",
   },
   {
     name: "SQL Server",
     icon: sqlServer,
+    description: "A relational database management system developed by Microsoft, commonly used for enterprise-level database solutions.",
   },
   {
     name: "Bootstrap",
     icon: bootstrap,
+    description: "A popular front-end framework for building responsive and mobile-first websites and web applications.",
   },
   {
     name: "Materialize",
     icon: materialize,
+    description: "A modern responsive front-end framework based on Material Design principles for building web projects.",
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "Git",
     icon: git,
+    description: "A distributed version control system for tracking changes in source code during software development.",
   },
   {
     name: "Github",
     icon: github,
+    description: "A web-based platform for hosting and sharing code repositories using Git version control.",
   },
   {
     name: "RESTful API",
     icon: restApi,
+    description: "An architectural style for designing networked applications, commonly used for creating web APIs.",
   },
-  // {
-  //   name: "API",
-  //   icon: api,
-  // },
-  
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
+
 
 const tools = [
   {
     name: "IntelliJ",
     icon: intelliJ,
+    description: "IntelliJ IDEA is an integrated development environment (IDE) written in Java for developing computer software. It is developed by JetBrains.",
   },
   {
     name: "Visual Studio Code",
     icon: visualStudioCode,
+    description: "Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux, and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring.",
   },
   {
     name: "Visual Studio",
     icon: visualStudio,
+    description: "Visual Studio is an integrated development environment (IDE) from Microsoft. It is used to develop computer programs, as well as websites, web apps, web services, and mobile apps.",
   },
   {
     name: "Android Studio",
     icon: androidStudio,
+    description: "Android Studio is the official integrated development environment (IDE) for Google's Android operating system, built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.",
   },
   {
     name: "Postman",
-    icon: postman ,
+    icon: postman,
+    description: "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration to help create better APIs—faster.",
   },
 ];
+
 
 const experiences = [
   {
@@ -366,7 +496,7 @@ const projects = [
         color: "purple-text-gradient",
       },
       {
-        name: "MUI",
+        name: "Material-UI",
         color: "red-text-gradient",
       },
       {
@@ -484,7 +614,7 @@ const projects = [
           color: "orange-blue-text-gradient",
         },
         {
-          name: "MUI",
+          name: "Material-UI",
           color: "green-blue-text-gradient",
         },
       ],
@@ -547,7 +677,7 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "MUI",
+        name: "Material-UI",
         color: "purple-text-gradient",
       },
       {
@@ -575,7 +705,7 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "MUI",
+        name: "Material-UI",
         color: "orange-text-gradient",
       },
       {

@@ -13,6 +13,7 @@ import {
 } from "../assets";
 import { navLinks } from "../constants";
 import { styles } from "../styles";
+import Tooltip from "@mui/material/Tooltip";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -36,12 +37,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={planets}
-            alt="home"
-            title="Home"
-            className="w-12 h-13 object-contain"
-          />
+          <Tooltip title="Home" placement="bottom">
+            <img
+              src={planets}
+              alt="home"
+              title="Home"
+              className="w-12 h-13 object-contain"
+            />
+          </Tooltip>
         </Link>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">

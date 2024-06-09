@@ -52,7 +52,7 @@ const ComputersCanvas = () => {
       camera={{ position: [25, 10, 4], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
       style={{ cursor: "pointer" }}
-      title="Rotate computer model"
+      title="Rotate"
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

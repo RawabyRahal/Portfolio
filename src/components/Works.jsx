@@ -22,6 +22,7 @@ import {
 } from "@heroicons/react/solid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCogs } from "@fortawesome/free-solid-svg-icons";
+import Tooltip from "@mui/material/Tooltip";
 
 const ProjectCard = ({
   index,
@@ -40,6 +41,10 @@ const ProjectCard = ({
           speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        style={{
+          zIndex:2,
+          // boxShadow: '0px 4px 10px rgb(180, 171, 171)',
+        }}
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -53,11 +58,9 @@ const ProjectCard = ({
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-2xl flex justify-center items-center cursor-pointer"
             >
-              <img
-                src={github}
-                title="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
+              <Tooltip title="source code" placement="bottom">
+                <img src={github} className="w-1/2 h-1/2 object-contain" />
+              </Tooltip>
             </div>
           </div>
         </div>
@@ -68,19 +71,22 @@ const ProjectCard = ({
         </div>
 
         <div className="ml-1 flex gap-3 mt-4">
-          <div title="Technologies Used">
-            <CodeIcon
-              // icon={faCogs}
-              className="h-7 w-7 text-yellow-500 "
-              // size="xl"
-            />
-          </div>
+          <Tooltip title="Technologies Used" placement="top">
+            <div>
+              <CodeIcon
+                // icon={faCogs}
+                className="h-7 w-7 text-yellow-500 "
+                // size="xl"
+              />
+            </div>
+          </Tooltip>
           <div className="flex flex-wrap gap-2 ml-1">
             {tags.map((tag) => (
               <p
                 key={`${name}-${tag.name}`}
                 className={`text-[14px] ${tag.color}`}
-              >{tag.name} |
+              >
+                {tag.name} |
               </p>
             ))}
           </div>
@@ -105,11 +111,11 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
-          Outlined below are several projects showcasing my programming proficiency and
-          experience. Each project is accompanied by a link to its code
-          repository, illustrating my capability to address complex challenges,
-          adapt to diverse technologies, and manage project workflows
-          effectively.
+          Outlined below are several projects showcasing my programming
+          proficiency and experience. Each project is accompanied by a link to
+          its code repository, illustrating my capability to address complex
+          challenges, adapt to diverse technologies, and manage project
+          workflows effectively.
         </motion.p>
       </div>
 

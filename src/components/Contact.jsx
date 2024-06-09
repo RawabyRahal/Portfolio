@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import InputAdornment from "@mui/material/InputAdornment";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import { IconButton } from "@mui/material";
+import { IconButton, CircularProgress } from "@mui/material";
 import EmailIcon from "@mui/icons-material/Email";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -170,8 +170,14 @@ const Contact = () => {
             <button
               type="submit"
               className="bg-tertiary py-3 px-8 rounded-xl outline-nones w-fit text-white font-bold shadow-md shadow-primary"
+              disabled={loading}
             >
-              {loading ? "Sending..." : "Send message"}
+              {/* {loading ? "Sending..." : "Send message"} */}
+              {loading ? (
+                <CircularProgress size={24} color="inherit" />
+              ) : (
+                "Send message"
+              )}
             </button>
           </div>
         </form>
@@ -179,7 +185,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.8, 1)}
-        className="xl:flex-1 xl:h-auto xl:w-[200px]"
+        className="xl:flex-1 xl:h-auto xl:w-[500px]"
       >
         <EarthCanvas />
       </motion.div>
