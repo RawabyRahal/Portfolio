@@ -4,7 +4,6 @@
 
 Here, I've created a space where you can explore my projects, learn more about me, and discover the technologies I've employed to bring these projects to life. Within this portfolio, you'll find dedicated sections for an about me, contact information, a showcase of projects, and an overview of the technologies I utilize. Whether you're interested in getting to know me better, exploring my projects, or discovering the tools and technologies I work with, I invite you to delve into the various sections of this portfolio.
 
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=1)](https://skillicons.dev)
 
 
 ## ⚙️ Technologies Used
