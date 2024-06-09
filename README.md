@@ -40,7 +40,7 @@ Here, I've created a space where you can explore my projects, learn more about m
 4. Start the development server:
    ```bash
    npm start
-5. Open your Firefox and navigate to `http://localhost:5173` to view the portfolio.
+5. Open Firefox and navigate to `http://localhost:5173` to view the portfolio
 
 <br>
 
