@@ -1,8 +1,10 @@
-import React, { Suspense, useRef, useEffect, useState } from "react";
+import React, { Suspense, lazy, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+// import CanvasLoader from "../Loader";
+const CanvasLoader = lazy(() => import("../Loader"));
+
 import { Padding } from "@mui/icons-material";
 
 const Earth = ({ isMobile }) => {
@@ -53,7 +55,7 @@ const EarthCanvas = () => {
         {" "}
         <OrbitControls
           autoRotate
-          autoRotateSpeed={3.5}
+          autoRotateSpeed={5}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

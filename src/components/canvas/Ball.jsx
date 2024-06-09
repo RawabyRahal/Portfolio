@@ -1,4 +1,4 @@
-import { Suspense } from "react";
+import { Suspense , lazy} from "react";
 import { Canvas } from "@react-three/fiber";
 import {
   Decal,
@@ -8,7 +8,8 @@ import {
   useTexture,
 } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+// import CanvasLoader from "../Loader";
+const CanvasLoader = lazy(() => import("../Loader"));
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);

@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import {
   About,
@@ -19,7 +20,6 @@ const App = () => {
         <StarsCanvas />
         <div>
           <Navbar />
-          {/* <StarsCanvas /> */}
           <Hero />
           <Sidebar />
         </div>
@@ -30,6 +30,7 @@ const App = () => {
         {/* <Feedbacks /> */}
         <div className="absolte z-0">
           <Contact />
+          {/* <StarsCanvas /> */}
           {/* <StarsCanvas /> */}
         </div>
       </div>
