@@ -48,7 +48,6 @@ const Tech = () => {
               }
             >
               <BallCanvas icon={technology.icon}/>
-              {/* <div>{technology.icon}</div> */}
             </div>
           </Tooltip>
         ))}

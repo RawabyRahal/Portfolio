@@ -8,6 +8,7 @@ import {
   Hero,
   Navbar,
   Tech,
+  Tool,
   Works,
   StarsCanvas,
   Sidebar,
@@ -26,6 +27,7 @@ const App = () => {
         <About />
         {/* <Experience /> */}
         <Tech />
+        {/* <Tool /> */}
         <Works />
         {/* <Feedbacks /> */}
         <div className="absolte z-0">
