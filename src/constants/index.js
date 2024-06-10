@@ -236,66 +236,66 @@ const services = [
 // ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-    description: "Hypertext Markup Language used for structuring web pages and applications.",
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  //   description: "Hypertext Markup Language used for structuring web pages and applications."
+  // },
   {
     name: "CSS 3",
     icon: css,
-    description: "Cascading Style Sheets used for styling web pages and applications.",
+    description: "Cascading Style Sheets used for styling web pages and applications."
   },
+  // {
+  //   name: "Java",
+  //   icon: java,
+  //   description: "A widely used programming language known for its portability and versatility."
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  //   description: "A versatile scripting language used for adding interactivity and dynamic behavior to web pages."
+  // },
+  // {
+  //   name: "JQuery",
+  //   icon: jquery,
+  //   description: "A fast, small, and feature-rich JavaScript library for simplifying web development tasks."
+  // },
   {
-    name: "Java",
-    icon: java,
-    description: "A widely-used programming language known for its portability and versatility.",
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-    description: "A versatile scripting language used for adding interactivity and dynamic behavior to web pages.",
-  },
-  {
-    name: "JQuery",
-    icon: jquery,
-    description: "A fast, small, and feature-rich JavaScript library for simplifying web development tasks.",
-  },
-  {
-    name: "React JS",
+    name: "ReactJS",
     icon: reactjs,
-    description: "A JavaScript library for building user interfaces, commonly used for creating single-page applications.",
+    description: "A JavaScript library for building user interfaces, commonly used for creating single-page applications."
   },
   {
     name: "SQL",
     icon: sql,
-    description: "Structured Query Language used for managing and manipulating databases.",
+    description: "Structured Query Language used for managing and manipulating databases."
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-    description: "A utility-first CSS framework for creating custom designs without writing CSS from scratch.",
-  },
-  {
-    name: "MUI",
-    icon: mui,
-    description: "A popular React UI framework providing pre-designed components for building modern web applications.",
-  },
-  {
-    name: "Axios",
-    icon: axios,
-    description: "A promise-based HTTP client for making asynchronous HTTP requests in JavaScript environments.",
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-    description: "A JavaScript runtime environment used for building server-side applications and APIs.",
-  },
-  {
-    name: "Spring Boot",
-    icon: springBoot,
-    description: "An open-source Java-based framework used for building production-ready, stand-alone, and high-performance Spring applications.",
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  //   description: "A utility-first CSS framework for creating custom designs without writing CSS from scratch."
+  // },
+  // {
+  //   name: "MUI",
+  //   icon: mui,
+  //   description: "A popular React UI framework providing pre-designed components for building modern web applications."
+  // },
+  // {
+  //   name: "Axios",
+  //   icon: axios,
+  //   description: "A promise based HTTP client for making asynchronous HTTP requests in JavaScript environments."
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  //   description: "A JavaScript runtime environment used for building server-side applications and APIs.",
+  // },
+  // {
+  //   name: "Spring Boot",
+  //   icon: springBoot,
+  //   description: "An open-source Java-based framework used for building production-ready, stand-alone, and high-performance Spring applications.",
+  // },
   {
     name: "XML",
     icon: xml,
@@ -311,51 +311,51 @@ const technologies = [
     icon: expessjs,
     description: "A fast, unopinionated, and minimalist web framework for Node.js used for building web applications and APIs.",
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-    description: "A NoSQL database program used for storing data in JSON-like documents with dynamic schemas.",
-  },
-  {
-    name: "Mongoose",
-    icon: mongoose,
-    description: "An Object Data Modeling (ODM) library for MongoDB and Node.js used for schema-based modeling and validation.",
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-    description: "A popular open-source relational database management system used for managing and querying structured data.",
-  },
-  {
-    name: "SQL Server",
-    icon: sqlServer,
-    description: "A relational database management system developed by Microsoft, commonly used for enterprise-level database solutions.",
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-    description: "A popular front-end framework for building responsive and mobile-first websites and web applications.",
-  },
-  {
-    name: "Materialize",
-    icon: materialize,
-    description: "A modern responsive front-end framework based on Material Design principles for building web projects.",
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  //   description: "A NoSQL database program used for storing data in JSON-like documents with dynamic schemas.",
+  // },
+  // {
+  //   name: "Mongoose",
+  //   icon: mongoose,
+  //   description: "An Object Data Modeling (ODM) library for MongoDB and Node.js used for schema-based modeling and validation.",
+  // },
+  // {
+  //   name: "MySQL",
+  //   icon: mysql,
+  //   description: "A popular open-source relational database management system used for managing and querying structured data.",
+  // },
+  // {
+  //   name: "SQL Server",
+  //   icon: sqlServer,
+  //   description: "A relational database management system developed by Microsoft, commonly used for enterprise-level database solutions.",
+  // },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  //   description: "A popular front-end framework for building responsive and mobile-first websites and web applications.",
+  // },
+  // {
+  //   name: "Materialize",
+  //   icon: materialize,
+  //   description: "A modern responsive front-end framework based on Material Design principles for building web projects.",
+  // },
   {
     name: "Git",
     icon: git,
     description: "A distributed version control system for tracking changes in source code during software development.",
   },
-  {
-    name: "Github",
-    icon: github,
-    description: "A web-based platform for hosting and sharing code repositories using Git version control.",
-  },
+  // {
+  //   name: "Github",
+  //   icon: github,
+  //   description: "A web-based platform for hosting and sharing code repositories using Git version control.",
+  // },
   {
     name: "RESTful API",
     icon: restApi,
     description: "An architectural style for designing networked applications, commonly used for creating web APIs.",
-  },
+  }
 ];
 
 
@@ -384,7 +384,7 @@ const tools = [
     name: "Postman",
     icon: postman,
     description: "Postman is a collaboration platform for API development. Postman's features simplify each step of building an API and streamline collaboration to help create better APIs—faster.",
-  },
+  }
 ];
 
 
@@ -758,4 +758,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, tools };
+export { services, experiences, testimonials, projects, tools,technologies };

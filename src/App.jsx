@@ -30,8 +30,6 @@ const App = () => {
         {/* <Feedbacks /> */}
         <div className="absolte z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
-          {/* <StarsCanvas /> */}
         </div>
       </div>
     </BrowserRouter>

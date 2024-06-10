@@ -1,6 +1,7 @@
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { technologies, tools } from "../constants";
+import { technologies } from "../constants";
+import { tools } from "../constants";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
@@ -42,21 +43,15 @@ const Tech = () => {
             <div
               className="w-28 h-28"
               key={technology.name}
-              onClick={(e) => handleItemClick({ ...technology, type: 'technology' }, e)}
+              onClick={(e) =>
+                handleItemClick({ ...technology, type: "technology" }, e)
+              }
             >
-              <BallCanvas icon={technology.icon} />
+              <BallCanvas icon={technology.icon}/>
+              {/* <div>{technology.icon}</div> */}
             </div>
           </Tooltip>
         ))}
-
-        {/* {showModal && (
-          <TechnologyModal
-            show={showModal}
-            onHide={() => setShowModal(false)}
-            technology={selectedTechnology}
-            ballPosition={selectedBallPosition}
-          />
-        )} */}
       </div>
 
       <motion.div variants={textVariant()}>
@@ -73,21 +68,23 @@ const Tech = () => {
             title={tool.name}
             style={{ cursor: "pointer" }}
           >
-            <div className="w-28 h-28" key={tool.name} onClick={(e) => handleItemClick({ ...tool, type: 'tool' }, e)}
+            <div
+              className="w-28 h-28"
+              key={tool.name}
+              onClick={(e) => handleItemClick({ ...tool, type: "tool" }, e)}
             >
               <BallCanvas icon={tool.icon} />
             </div>
           </Tooltip>
         ))}
-
-{showModal && (
-        <TechnologyModal
-          show={showModal}
-          onHide={() => setShowModal(false)}
-          item={selectedItem}
-          ballPosition={ballPosition}
-        />
-      )}
+        {showModal && (
+          <TechnologyModal
+            show={showModal}
+            onHide={() => setShowModal(false)}
+            item={selectedItem}
+            ballPosition={ballPosition}
+          />
+        )}
       </div>
     </>
   );
