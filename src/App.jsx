@@ -20,9 +20,9 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         <StarsCanvas />
         <div>
+          <Sidebar />
           <Navbar />
           <Hero />
-          <Sidebar />
         </div>
         <About />
         {/* <Experience /> */}
