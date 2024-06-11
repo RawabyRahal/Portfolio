@@ -90,29 +90,30 @@ const services = [
     icon: softwareEngineer,
   },
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Developer",
-    icon: react,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Frontend Developer",
-    icon: frontend,
-  },
-  {
     title: "Full-Stack Developer",
     icon: fullstack,
   },
   {
-    title: "Software Developer",
-    icon: software,
-  }
+    title: "Web Developer",
+    icon: web,
+  },
+  // {
+  //   title: "React Developer",
+  //   icon: react,
+  // },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Frontend Developer",
+  //   icon: frontend,
+  // },
+ 
+  // {
+  //   title: "Software Developer",
+  //   icon: software,
+  // }
 ];
 
 // const technologies = [
@@ -236,26 +237,26 @@ const services = [
 // ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  //   description: "Hypertext Markup Language used for structuring web pages and applications."
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+    description: "Hypertext Markup Language used for structuring web pages and applications."
+  },
   {
     name: "CSS 3",
     icon: css,
     description: "Cascading Style Sheets used for styling web pages and applications."
   },
-  // {
-  //   name: "Java",
-  //   icon: java,
-  //   description: "A widely used programming language known for its portability and versatility."
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  //   description: "A versatile scripting language used for adding interactivity and dynamic behavior to web pages."
-  // },
+  {
+    name: "Java",
+    icon: java,
+    description: "A widely used programming language known for its portability and versatility."
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+    description: "A versatile scripting language used for adding interactivity and dynamic behavior to web pages."
+  },
   // {
   //   name: "JQuery",
   //   icon: jquery,
@@ -272,11 +273,6 @@ const technologies = [
     description: "Structured Query Language used for managing and manipulating databases."
   },
   // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  //   description: "A utility-first CSS framework for creating custom designs without writing CSS from scratch."
-  // },
-  // {
   //   name: "MUI",
   //   icon: mui,
   //   description: "A popular React UI framework providing pre-designed components for building modern web applications."
@@ -286,36 +282,37 @@ const technologies = [
   //   icon: axios,
   //   description: "A promise based HTTP client for making asynchronous HTTP requests in JavaScript environments."
   // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  //   description: "A JavaScript runtime environment used for building server-side applications and APIs.",
-  // },
-  // {
-  //   name: "Spring Boot",
-  //   icon: springBoot,
-  //   description: "An open-source Java-based framework used for building production-ready, stand-alone, and high-performance Spring applications.",
-  // },
   {
-    name: "XML",
-    icon: xml,
-    description: "Extensible Markup Language used for storing and transporting data.",
+    name: "Spring Boot",
+    icon: springBoot,
+    description: "An open-source Java-based framework used for building production-ready, stand-alone, and high-performance Spring applications.",
   },
   {
-    name: "JSON",
-    icon: json,
-    description: "JavaScript Object Notation used for storing and exchanging data between a browser and a server.",
+    name: "Node JS",
+    icon: nodejs,
+    description: "A JavaScript runtime environment used for building server-side applications and APIs.",
   },
+  
+  // {
+  //   name: "XML",
+  //   icon: xml,
+  //   description: "Extensible Markup Language used for storing and transporting data.",
+  // },
+  // {
+  //   name: "JSON",
+  //   icon: json,
+  //   description: "JavaScript Object Notation used for storing and exchanging data between a browser and a server.",
+  // },
   {
     name: "Express JS",
     icon: expessjs,
     description: "A fast, unopinionated, and minimalist web framework for Node.js used for building web applications and APIs.",
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  //   description: "A NoSQL database program used for storing data in JSON-like documents with dynamic schemas.",
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+    description: "A NoSQL database program used for storing data in JSON-like documents with dynamic schemas.",
+  },
   // {
   //   name: "Mongoose",
   //   icon: mongoose,
@@ -342,6 +339,16 @@ const technologies = [
   //   description: "A modern responsive front-end framework based on Material Design principles for building web projects.",
   // },
   {
+    name: "RESTful API",
+    icon: restApi,
+    description: "An architectural style for designing networked applications, commonly used for creating web APIs.",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+    description: "A utility-first CSS framework for creating custom designs without writing CSS from scratch."
+  },
+  {
     name: "Git",
     icon: git,
     description: "A distributed version control system for tracking changes in source code during software development.",
@@ -351,11 +358,7 @@ const technologies = [
   //   icon: github,
   //   description: "A web-based platform for hosting and sharing code repositories using Git version control.",
   // },
-  {
-    name: "RESTful API",
-    icon: restApi,
-    description: "An architectural style for designing networked applications, commonly used for creating web APIs.",
-  }
+ 
 ];
 
 

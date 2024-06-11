@@ -31,12 +31,22 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
+  const validateEmail = (email) => {
+    const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    return re.test(String(email).toLowerCase());
+  };
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
       toast.warn("Please fill in all fields before submitting.");
       return;
     }
+
+    if (!validateEmail(form.email)) {
+      toast.error("Please enter a valid email address.");
+      return;
+    }
+    
     setLoading(true);
 
     emailjs

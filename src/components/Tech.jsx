@@ -47,32 +47,7 @@ const Tech = () => {
                 handleItemClick({ ...technology, type: "technology" }, e)
               }
             >
-              <BallCanvas icon={technology.icon}/>
-            </div>
-          </Tooltip>
-        ))}
-      </div>
-
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText} text-center mt-[100px]`}>
-          Tools Suite.
-        </h2>
-      </motion.div>
-
-      <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
-        {tools.map((tool) => (
-          <Tooltip
-            key={tool.name}
-            placement="bottom"
-            title={tool.name}
-            style={{ cursor: "pointer" }}
-          >
-            <div
-              className="w-28 h-28"
-              key={tool.name}
-              onClick={(e) => handleItemClick({ ...tool, type: "tool" }, e)}
-            >
-              <BallCanvas icon={tool.icon} />
+              <BallCanvas icon={technology.icon} />
             </div>
           </Tooltip>
         ))}
