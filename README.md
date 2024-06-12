@@ -42,6 +42,4 @@ Here you will find a showcase of my latest projects, skills, and achievements in
 
 <br>
 
-Explore my projects and see the creativity and innovation behind each one.
-
-Ready to explore? Let's dive in!
+#### Explore my projects and see the creativity and innovation behind each one. Ready to explore? Let's dive in!
