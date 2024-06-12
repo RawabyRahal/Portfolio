@@ -2,7 +2,7 @@
 
 #### Welcome to my portfolio!
 
-Here you will find a showcase of my latest projects, skills, and achievements in web development and design. Explore my work to see how I bring innovative ideas to life through code
+Here you will find a showcase of my latest projects, skills, and achievements in web development, full-stack development, and software engineering. Explore my work to see how I bring innovative ideas to life through code
 
 ## ⚙️ Technologies Used
 
