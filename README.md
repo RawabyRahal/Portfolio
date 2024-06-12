@@ -42,8 +42,6 @@ Here you will find a showcase of my latest projects, skills, and achievements in
 
 <br>
 
-### Dive into My Portfolio!
+Explore my projects and see the creativity and innovation behind each one.
 
-Explore my projects and discover the technologies, tools, and libraries used to bring them to life. Each project represents a journey of creativity and innovation.
-#### Ready to explore? Let's dive in!
-
+Ready to explore? Let's dive in!
