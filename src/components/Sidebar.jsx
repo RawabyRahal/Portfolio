@@ -4,7 +4,7 @@ import Tooltip from "@mui/material/Tooltip";
 
 const Sidebar = () => {
   return (
-    <section className="fixed left-0 top-0 h-full bg-primary">
+    <section className="fixed left-0 top-0 h-full z-50">
       <div className="flex flex-col justify-center items-start h-full ml-6">
         <Tooltip title="LinkedIn" placement="right">
           <a
