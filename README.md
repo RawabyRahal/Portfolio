@@ -2,9 +2,7 @@
 
 #### Welcome to my portfolio!
 
-Here, I've created a space where you can explore my projects, learn more about me, and discover the technologies I've employed to bring these projects to life. Within this portfolio, you'll find dedicated sections for an about me, contact information, a showcase of projects, and an overview of the technologies I utilize. Whether you're interested in getting to know me better, exploring my projects, or discovering the tools and technologies I work with, I invite you to delve into the various sections of this portfolio.
-
-
+Here you will find a showcase of my latest projects, skills, and achievements, where innovative ideas come to life through code
 
 ## ⚙️ Technologies Used
 
@@ -40,12 +38,8 @@ Here, I've created a space where you can explore my projects, learn more about m
 4. Start the development server:
    ```bash
    npm run dev
-5. Open Firefox and navigate to `http://localhost:5173` to view the portfolio
+5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio
 
 <br>
 
-### Dive into My Portfolio!
-
-Explore my projects and discover the technologies, tools, and libraries used to bring them to life. Each project represents a journey of creativity and innovation.
-#### Ready to explore? Let's dive in!
-
+#### Explore my projects and see the creativity and innovation behind each one. Ready to explore? Let's dive in!
