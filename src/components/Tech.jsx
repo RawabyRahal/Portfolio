@@ -37,7 +37,7 @@ const Tech = () => {
           <Tooltip
             key={technology.name}
             placement="bottom"
-            title={technology.name}
+            title={`${technology.name} | Rotate for 360° view`}
             style={{ cursor: "pointer" }}
           >
             <div
