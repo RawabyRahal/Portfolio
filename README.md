@@ -42,6 +42,6 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
 
 <br>
 
-#### Explore my projects and see the creativity and innovation behind each one. Ready to explore? Let's dive in!
+#### Discover the projects that showcase my creativity and innovation. Ready to explore?
 
-[Click here to visit my portfolio](https://rawabyrahal.netlify.app/)
+[Visit my portfolio](https://rawabyrahal.netlify.app/)
