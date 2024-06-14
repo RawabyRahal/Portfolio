@@ -1,6 +1,6 @@
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { technologies, tools } from "../constants"; // Import both from constants
+import { technologies, tools } from "../constants";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
@@ -31,7 +31,7 @@ const Tool = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {tools.map((tool) => (
           <Tooltip
-            key={`tool-${tool.name}`} // Ensure unique keys
+            key={`tool-${tool.name}`} 
             placement="bottom"
             title={tool.name}
             style={{ cursor: "pointer" }}
