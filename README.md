@@ -44,4 +44,4 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
 
 <br>
 
-#### To explore my work, [visit my portfolio](https://rawabyrahal.netlify.app/)
+### To explore my work, [visit my portfolio](https://rawabyrahal.netlify.app/)
