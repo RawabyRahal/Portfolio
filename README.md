@@ -3,7 +3,9 @@
 #### Welcome to my portfolio!
 
 Here you will find a showcase of my latest projects, skills, and achievements, where innovative ideas come to life through code
+
 👉 [Visit my portfolio](https://rawabyrahal.netlify.app/)
+
 ## ⚙️ Technologies Used
 
 - **[React.js](https://reactjs.org/):** A JavaScript library for building user interfaces.
