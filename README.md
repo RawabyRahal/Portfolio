@@ -4,9 +4,7 @@
 
 Here you will find a showcase of my latest projects, skills, and achievements, where innovative ideas come to life through code
 
-👉 [Visit my portfolio](https://rawabyrahal.netlify.app/)
-
-To explore my work, please visit my [professional portfolio](https://your-portfolio-link.com).
+To explore my work, please [visit my portfolio](https://rawabyrahal.netlify.app/)
 
 
 ## ⚙️ Technologies Used
