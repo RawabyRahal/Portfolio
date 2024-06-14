@@ -4,7 +4,6 @@
 
 Here you will find a showcase of my latest projects, skills, and achievements, where innovative ideas come to life through code
 
-To explore my work, please [visit my portfolio](https://rawabyrahal.netlify.app/)
 
 
 ## ⚙️ Technologies Used
@@ -43,3 +42,6 @@ To explore my work, please [visit my portfolio](https://rawabyrahal.netlify.app/
    npm run dev
 5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio
 
+<br>
+
+To explore my work, please [visit my portfolio](https://rawabyrahal.netlify.app/)
