@@ -41,7 +41,3 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
    ```bash
    npm run dev
 5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio
-
-<br>
-
-#### To explore my work, [visit my portfolio](https://rawabyrahal.netlify.app/)
