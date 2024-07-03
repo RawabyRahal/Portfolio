@@ -59,6 +59,7 @@ import {
   rupg,
   astrogrid,
   recipes,
+  blockify,
 } from "../assets";
 
 export const navLinks = [
@@ -475,6 +476,42 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Blockify",
+    description: "A decentralized application (DApp) built with React and Solidity, Blockify enables seamless Ethereum transactions. Integrated with MetaMask and ethers.js, it ensures secure and efficient cryptocurrency operations.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ethers.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MetaMask",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React Icons",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: blockify,
+    source_code_link: "https://github.com/RawabyRahal/Blockify",
+  },
+  {
     name: "Portfolio",
     description: "A responsive personal portfolio website to showcase my skills, projects, and experience. The website includes interactive sections such as an about me page, project gallery, and contact form.",
     tags: [
@@ -739,26 +776,26 @@ const projects = [
     image: rupg,
     source_code_link: "https://github.com/RawabyRahal/Random-User-Page-Generator",
   },
-  {
-    name: "Tweeter",
-    description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tweeter,
-    source_code_link: "https://github.com/RawabyRahal/Tweeter",
-  },
+  // {
+  //   name: "Tweeter",
+  //   description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tweeter,
+  //   source_code_link: "https://github.com/RawabyRahal/Tweeter",
+  // },
 ];
 
 export { services, experiences, testimonials, projects, tools,technologies };

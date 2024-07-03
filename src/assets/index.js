@@ -70,6 +70,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import portfolio from "./portfolio.png";
 import bank from "./bank.png";
+import blockify from "./blockify.png";
 import weather from "./weather.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -144,4 +145,5 @@ export {
   rupg,
   astrogrid,
   recipes,
+  blockify,
 };

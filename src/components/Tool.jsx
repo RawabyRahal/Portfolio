@@ -1,6 +1,6 @@
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { technologies, tools } from "../constants";
+import { tools } from "../constants";
 import { motion } from "framer-motion";
 import { textVariant } from "../utils/motion";
 import { styles } from "../styles";
