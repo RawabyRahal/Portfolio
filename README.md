@@ -4,6 +4,8 @@
 
 Here you will find a showcase of my latest projects, skills, and achievements, where innovative ideas come to life through code
 
+
+
 ## ⚙️ Technologies Used
 
 - **[React.js](https://reactjs.org/):** A JavaScript library for building user interfaces.
@@ -39,9 +41,3 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
    ```bash
    npm run dev
 5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio
-
-<br>
-
-#### Discover the projects that showcase my creativity and innovation. Ready to explore?
-
-[Visit my portfolio](https://rawabyrahal.netlify.app/)
