@@ -5,6 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import react from "./react.png";
 import frontend from "./frontend.png";
+import blockchain from "./blockchain.png";
 import software from "./software.png";
 import web from "./webDevelopment.png";
 import github from "./tech/github.png";
@@ -146,4 +147,5 @@ export {
   astrogrid,
   recipes,
   blockify,
+  blockchain,
 };

@@ -60,6 +60,7 @@ import {
   astrogrid,
   recipes,
   blockify,
+  blockchain,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +98,10 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
+  },
+  {
+    title: "Blockchain Developer",
+    icon: blockchain,
   },
   // {
   //   title: "React Developer",
