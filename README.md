@@ -37,7 +37,7 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
    ```bash
    npm install
 
-4. Start the development server:
+4. Start the frontend server:
    ```bash
    npm run dev
 5. Open your web browser and navigate to `http://localhost:5173` to view the portfolio
