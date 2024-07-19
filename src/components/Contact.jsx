@@ -115,7 +115,7 @@ const Contact = () => {
               placeholder="What would you like to say?"
               className="bg-tertiary px-3 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               style={{
-                backgroundColor: "transparent",
+                // backgroundColor: "transparent",
                 backgroundImage: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(229, 225, 187)' x='0' y='23' width='10' height='1'/></svg>")`,
               }}
             />

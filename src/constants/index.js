@@ -61,6 +61,7 @@ import {
   recipes,
   blockify,
   blockchain,
+  shirt,
 } from "../assets";
 
 export const navLinks = [
@@ -115,7 +116,7 @@ const services = [
   //   title: "Frontend Developer",
   //   icon: frontend,
   // },
- 
+
   // {
   //   title: "Software Developer",
   //   icon: software,
@@ -235,7 +236,7 @@ const services = [
 //   //   name: "API",
 //   //   icon: api,
 //   // },
-  
+
 //   // {
 //   //   name: "docker",
 //   //   icon: docker,
@@ -298,7 +299,7 @@ const technologies = [
     icon: nodejs,
     description: "A JavaScript runtime environment used for building server-side applications and APIs.",
   },
-  
+
   // {
   //   name: "XML",
   //   icon: xml,
@@ -364,7 +365,7 @@ const technologies = [
   //   icon: github,
   //   description: "A web-based platform for hosting and sharing code repositories using Git version control.",
   // },
- 
+
 ];
 
 
@@ -481,15 +482,81 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Blockify",
-    description: "A decentralized application (DApp) built with React and Solidity, Blockify enables seamless Ethereum transactions. Integrated with MetaMask and ethers.js, it ensures secure and efficient cryptocurrency operations.",
+    name: "ShirtCustomizerPro",
+    description: "A cutting-edge web application that allows users to design and customize shirts with interactive 3D models.",
     tags: [
       {
         name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "ethers.js",
+        name: "Three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "React Three Fiber",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "React Three Drei",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "Framer Motion",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Maath",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "Valtio",
+        color: "violet-blue-text-gradient",
+      }, {
+        name: "React Toastify",
+        color: "orange-blue-text-gradient",
+      }, {
+        name: "Express.js",
+        color: "green-blue-text-gradient",
+      }, {
+        name: "OpenAI",
+        color: "blue-text-gradient",
+      }, {
+        name: "CORS",
+        color: "pink-text-gradient",
+      }, {
+        name: "Cloudinary",
+        color: "orange-text-gradient",
+      }, {
+        name: "React Color",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "React Icons",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: shirt,
+    source_code_link: "https://github.com/RawabyRahal/ShirtCustomizerPro",
+  },
+  {
+    name: "Blockify",
+    description: "A decentralized application (DApp) built with React and Solidity, Blockify enables seamless Ethereum transactions. Integrated with MetaMask and ethers.js, it ensures secure and efficient cryptocurrency operations.",
+    tags: [
+      {
+        name: "React Vite",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Ethers.js",
         color: "green-text-gradient",
       },
       {
@@ -548,6 +615,10 @@ const projects = [
         name: "React Icons",
         color: "yellow-text-gradient",
       },
+      {
+        name: "React Toastify",
+        color: "violet-blue-text-gradient",
+      },
     ],
     image: portfolio,
     source_code_link: "https://github.com/RawabyRahal/Portfolio",
@@ -556,36 +627,36 @@ const projects = [
     name: "AstroGrid Game",
     description:
       "Embark on the AstroGrid game! This thrilling space-themed adventure sets two players on a cosmic race to the finish line.",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Express.js",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "Mongoose",
-          color: "purple-text-gradient",
-        },
-        {
-          name: "MongoDB",
-          color: "red-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "yellow-text-gradient",
-        },
-      ],
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "red-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "yellow-text-gradient",
+      },
+    ],
     image: astrogrid,
     source_code_link: "https://github.com/RawabyRahal/A-lliance-App",
   },
@@ -593,112 +664,112 @@ const projects = [
     name: "Recipe App",
     description:
       "Recipe app provides a user-friendly platform for discovering and exploring a wide variety of recipes. Whether you're a seasoned chef or a kitchen novice, our app makes it easy to find delicious recipes that match your tastes and dietary preferences.",
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Express.js",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: recipes,
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      },
+    ],
+    image: recipes,
     source_code_link: "https://github.com/RawabyRahal/Recipe-App.git",
   },
   {
     name: "Banking App",
     description:
       "User-friendly web application is designed to simplify your banking experience by effortlessly tracking all your transactions, whether it's a deposit or withdrawal.",
-      tags: [
-        {
-          name: "React.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Express.js",
-          color: "orange-text-gradient",
-        },
-         {
-          name: "Mongoose",
-          color: "purple-text-gradient",
-        }, {
-          name: "MongoDB",
-          color: "red-text-gradient",
-        },
-        {
-          name: "React Router DOM",
-          color: "yellow-text-gradient",
-        },
-        {
-          name: "React Icons",
-          color: "violet-blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "orange-blue-text-gradient",
-        },
-        {
-          name: "Material-UI",
-          color: "green-blue-text-gradient",
-        },
-      ],
-      image: bank,
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Mongoose",
+        color: "purple-text-gradient",
+      }, {
+        name: "MongoDB",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React Router DOM",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React Icons",
+        color: "violet-blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-blue-text-gradient",
+      },
+      {
+        name: "Material-UI",
+        color: "green-blue-text-gradient",
+      },
+    ],
+    image: bank,
     source_code_link: "https://github.com/RawabyRahal/Banking-App",
   },
   {
     name: "Weather App",
     description:
       "User-friendly web application is designed to provide you with the most accurate temperature information for any country you search for.",
-      tags: [
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Node.js",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Express.js",
-          color: "orange-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "purple-text-gradient",
-        }, {
-          name: "Mongoose",
-          color: "red-text-gradient",
-        }, {
-          name: "MongoDB",
-          color: "yellow-text-gradient",
-        },
-      ],
-      image: weather,
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "purple-text-gradient",
+      }, {
+        name: "Mongoose",
+        color: "red-text-gradient",
+      }, {
+        name: "MongoDB",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: weather,
     source_code_link: "https://github.com/RawabyRahal/Weather-App",
   },
   {
@@ -761,26 +832,26 @@ const projects = [
     image: hangman,
     source_code_link: "https://github.com/RawabyRahal/Hangman",
   },
-  {
-    name: "RUPG App",
-    description: "RUPG (Random User Page Generator) is a dynamic web application that simulates a Facebook profile page. This project was born out of the idea of creating a platform where users can experience the randomness and diversity of content generated from various APIs.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rupg,
-    source_code_link: "https://github.com/RawabyRahal/Random-User-Page-Generator",
-  },
+  // {
+  //   name: "RUPG App",
+  //   description: "RUPG (Random User Page Generator) is a dynamic web application that simulates a Facebook profile page. This project was born out of the idea of creating a platform where users can experience the randomness and diversity of content generated from various APIs.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: rupg,
+  //   source_code_link: "https://github.com/RawabyRahal/Random-User-Page-Generator",
+  // },
   // {
   //   name: "Tweeter",
   //   description: "Tweeter is a user-friendly social media platform allowing seamless post creation and comment management for a dynamic online interaction experience.",
@@ -803,4 +874,4 @@ const projects = [
   // },
 ];
 
-export { services, experiences, testimonials, projects, tools,technologies };
+export { services, experiences, testimonials, projects, tools, technologies };
