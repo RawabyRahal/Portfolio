@@ -15,6 +15,7 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
 - **[React Router DOM](https://reactrouter.com/):** Declarative routing for React applications."
 - **[Material-UI (MUI)](https://mui.com/):** A popular React UI framework for building responsive web applications."
 - **[react-toastify](https://github.com/fkhadra/react-toastify):** A simple, lightweight library for creating toast notifications in React applications."
+<br>
 
 ### 🛠️ Tools and Libraries
 - **[Vite](https://vitejs.dev/):** A build tool that provides a faster and leaner development experience for modern web projects.
