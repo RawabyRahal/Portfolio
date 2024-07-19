@@ -22,6 +22,7 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
 - **[EmailJS](https://www.emailjs.com/):** A service for sending emails directly from JavaScript applications.
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
 - **[npm](https://www.npmjs.com/):** Node Package Manager for managing project dependencies.
+<br>
 
 ### Installation
 
