@@ -501,47 +501,51 @@ const projects = [
         name: "React Three Fiber",
         color: "orange-text-gradient",
       },
-      {
-        name: "React Three Drei",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "Framer Motion",
-        color: "red-text-gradient",
-      },
-      {
-        name: "Maath",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Valtio",
-        color: "violet-blue-text-gradient",
-      }, {
-        name: "React Toastify",
-        color: "orange-blue-text-gradient",
-      }, {
+      // {
+      //   name: "React Three Drei",
+      //   color: "purple-text-gradient",
+      // },
+      // {
+      //   name: "Framer Motion",
+      //   color: "red-text-gradient",
+      // },
+      // {
+      //   name: "Maath",
+      //   color: "yellow-text-gradient",
+      // },
+      // {
+      //   name: "Valtio",
+      //   color: "violet-blue-text-gradient",
+      // }, {
+      //   name: "React Toastify",
+      //   color: "orange-blue-text-gradient",
+      // },
+       {
         name: "Express.js",
-        color: "green-blue-text-gradient",
+        color: "purple-text-gradient",
       }, {
         name: "OpenAI",
-        color: "blue-text-gradient",
-      }, {
-        name: "CORS",
-        color: "pink-text-gradient",
-      }, {
-        name: "Cloudinary",
-        color: "orange-text-gradient",
-      }, {
-        name: "React Color",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "React Icons",
         color: "red-text-gradient",
       },
+      //  {
+      //   name: "CORS",
+      //   color: "pink-text-gradient",
+      // },
+       {
+        name: "Cloudinary",
+        color: "yellow-text-gradient",
+      },
+      //  {
+      //   name: "React Color",
+      //   color: "purple-text-gradient",
+      // },
+      // {
+      //   name: "React Icons",
+      //   color: "red-text-gradient",
+      // },
       {
         name: "Tailwind CSS",
-        color: "yellow-text-gradient",
+        color: "violet-blue-text-gradient",
       },
     ],
     image: shirt,
