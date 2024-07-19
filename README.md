@@ -6,7 +6,7 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
 
 
 
-## ⚙️ Technologies Used
+### ⚙️ Technologies Used
 
 - **[React.js](https://reactjs.org/):** A JavaScript library for building user interfaces.
 - **[Three.js](https://threejs.org/):** A JavaScript library for creating and displaying animated 3D graphics.
@@ -16,13 +16,13 @@ Here you will find a showcase of my latest projects, skills, and achievements, w
 - **[Material-UI (MUI)](https://mui.com/):** A popular React UI framework for building responsive web applications."
 - **[react-toastify](https://github.com/fkhadra/react-toastify):** A simple, lightweight library for creating toast notifications in React applications."
 
-## 🛠️ Tools and Libraries
+### 🛠️ Tools and Libraries
 - **[Vite](https://vitejs.dev/):** A build tool that provides a faster and leaner development experience for modern web projects.
 - **[EmailJS](https://www.emailjs.com/):** A service for sending emails directly from JavaScript applications.
 - **[React Three Drei](https://github.com/pmndrs/drei):** A helper library for React Three Fiber that provides useful components and helpers.
 - **[npm](https://www.npmjs.com/):** Node Package Manager for managing project dependencies.
 
-## Installation
+### Installation
 
 1. Clone the repository:
 
