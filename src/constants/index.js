@@ -62,6 +62,7 @@ import {
   blockify,
   blockchain,
   shirt,
+  ecw,
 } from "../assets";
 
 export const navLinks = [
@@ -482,6 +483,42 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Epic Cards War",
+    description: "Epic Cards War is a Web3 game that brings classic card battles to the blockchain. Engage in strategic duels, manage your resources, and experience a unique decentralized gaming experience.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient"
+      },
+      {
+        name: "Ethers.js",
+        color: "green-text-gradient"
+      },
+      {
+        name: "Solidity",
+        color: "pink-text-gradient"
+      },
+      {
+        name: "Tailwind CSS",
+        color: "purple-text-gradient"
+      },
+      {
+        name: "Web3",
+        color: "orange-text-gradient"
+      },
+      {
+        name: "MetaMask",
+        color: "red-text-gradient"
+      },
+      {
+        name: "Ethereum",
+        color: "yellow-text-gradient"
+      }
+    ],
+    image: ecw,
+    source_code_link: "https://github.com/RawabyRahal/NFT-Game"
+  },  
+  {
     name: "ShirtCustomizerPro",
     description: "A cutting-edge web application that allows users to design and customize shirts with interactive 3D models.",
     tags: [
@@ -741,41 +778,41 @@ const projects = [
     image: bank,
     source_code_link: "https://github.com/RawabyRahal/Banking-App",
   },
-  {
-    name: "Weather App",
-    description:
-      "User-friendly web application is designed to provide you with the most accurate temperature information for any country you search for.",
-    tags: [
-      {
-        name: "HTML",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Express.js",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "purple-text-gradient",
-      }, {
-        name: "Mongoose",
-        color: "red-text-gradient",
-      }, {
-        name: "MongoDB",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: weather,
-    source_code_link: "https://github.com/RawabyRahal/Weather-App",
-  },
+  // {
+  //   name: "Weather App",
+  //   description:
+  //     "User-friendly web application is designed to provide you with the most accurate temperature information for any country you search for.",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Node.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "Express.js",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "purple-text-gradient",
+  //     }, {
+  //       name: "Mongoose",
+  //       color: "red-text-gradient",
+  //     }, {
+  //       name: "MongoDB",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: weather,
+  //   source_code_link: "https://github.com/RawabyRahal/Weather-App",
+  // },
   {
     name: "Reflix",
     description: "Reflix is a movie rental app. It allows a user to browse a catalog of movies, and select some to rent, so long as the user has the budget for it. This is a very special kind of renting system wherein the money is returned to the user when the movie is returned.",

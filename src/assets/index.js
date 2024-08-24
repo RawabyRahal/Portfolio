@@ -22,6 +22,7 @@ import rupg from "./rupg.png";
 import astrogrid from "./astrogrid.png";
 import recipes from "./recipes.png";
 import shirt from "./shirt.png";
+import ecw from "./ecw.png";
 
 import hangman from "./hangman.png";
 import planets from "./planets.png";
@@ -78,6 +79,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  ecw,
   logo,
   backend,
   creator,
