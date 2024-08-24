@@ -500,11 +500,11 @@ const projects = [
       },
       {
         name: "Tailwind CSS",
-        color: "purple-text-gradient"
+        color: "orange-text-gradient"
       },
       {
         name: "Web3",
-        color: "orange-text-gradient"
+        color: "purple-text-gradient"
       },
       {
         name: "MetaMask",
