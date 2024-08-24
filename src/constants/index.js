@@ -516,7 +516,7 @@ const projects = [
       }
     ],
     image: ecw,
-    source_code_link: "https://github.com/RawabyRahal/NFT-Game"
+    source_code_link: "https://github.com/RawabyRahal/Epic-Card-Wars"
   },  
   {
     name: "ShirtCustomizerPro",
