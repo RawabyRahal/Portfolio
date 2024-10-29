@@ -1,7 +1,6 @@
 # Portfolio 
 
 #### Welcome to my portfolio!
-
 Here you will find a showcase of my latest projects, skills, and achievements, where innovative ideas come to life through code
 
 <br>
